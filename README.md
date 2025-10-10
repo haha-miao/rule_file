@@ -1,0 +1,2 @@
+# rule_file
+rule
