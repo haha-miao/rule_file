@@ -1,1 +1,33 @@
+payload:
+  # 倒闭Porn
+  - DOMAIN-SUFFIX,cancanbi.com
 
+  # 倒闭主线路
+  - DOMAIN-KEYWORD,cdn.sexemby.com
+
+  # ZDZ PRE
+  - DOMAIN-SUFFIX,emby.to
+
+  # JMS PRE
+  - DOMAIN-SUFFIX,ikuramoe.com
+  - DOMAIN-SUFFIX,st8.one
+
+  # 叔服
+  - DOMAIN-SUFFIX,mcjoker.xyz
+
+  # 墨白
+  - DOMAIN-SUFFIX,mobaiemby.site
+
+  # GUGU
+  - DOMAIN-SUFFIX,guguemby.site
+  - DOMAIN-SUFFIX,gugu.media
+
+  # 喜鹊
+  - DOMAIN-SUFFIX,223789.xyz
+  - DOMAIN-KEYWORD,023168.xyz
+
+  # PronEmby
+  - DOMAIN-SUFFIX,ii00.cc
+
+  # 奥德赛
+  - DOMAIN-SUFFIX,odysseyplus.site
