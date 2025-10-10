@@ -128,6 +128,7 @@ dns:
 proxies:
 
 #==================== 分割 ====================#
+#需同时满足HKG,USA,JPN,SGP,TWN不然报错
 proxy-groups:
   - name: Proxy
     type: select
