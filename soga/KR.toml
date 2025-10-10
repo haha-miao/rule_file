@@ -1,0 +1,39 @@
+#路由 韩国
+[[routes]]
+rules=[
+    #KR
+    # > Wavve
+    "domain:wavve.com",
+    "domain:pooq.co.kr",
+    # > Tving
+    "domain:tving.com",
+    # > Coupang Play
+    "domain:coupangplay.com",
+    # > Naver TV
+    "domain:naver.com",
+    "domain:navercorp.com",
+    "domain:pstatic.net",
+    "domain:smartmediarep.com",
+    # > Afreeca TV
+    "domain:afreecatv.com",
+    # > KBS Domestic
+    "domain:kbs.co.kr",
+    # > Watcha
+    "domain:watcha.com",
+    # > SpotvNow
+    "domain:spotvnow.co.kr",
+    "edge.api.brightcove.com",
+    # > JeiTV
+    "domain:jeitv.com",
+    # > PandaTV
+    "domain:pandalive.co.kr",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="xxx"
+server="xxx"
+port=12345
+password="xxx"
+cipher="xxx"
