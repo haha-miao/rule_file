@@ -1,72 +1,41 @@
-port: 7890           # HTTP 代理端口
-socks-port: 7891     # Socks 端口
-redir-port: 7892     # Redir 端口
-mixed-port: 7893     # 混合端口
-allow-lan: false      # 不允许局域网连接
-bind-address: "*"    # 地址绑定
-mode: rule           # 规则模式
-log-level: info      # 日志级别
-ipv6: true           # 开启IPV6
-external-controller: 127.0.0.1:9090  # 外部控制器
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7894
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+  
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 48
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+#  asn: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb"
 
-# 外部UI设置
+
+external-controller: 127.0.0.1:9090
+secret: "asdf1234"
 external-ui: ui
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+external-ui-url: "https://ghp.ci/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 
-# 全局客户端指纹
+# 匹配进程 always/strict/off
+find-process-mode: strict
 global-client-fingerprint: chrome
+keep-alive-idle: 600
+keep-alive-interval: 30
 
-# DNS 设置
-dns:
-  enable: true       # 启用DNS功能
-  ipv6: true         # 支持IPV6
-  listen: 0.0.0.0:53 # dns监听地址
-  enhanced-mode: fake-ip  # 启用Fake-IP模式
-  fake-ip-range: 198.18.0.1/16  # Fake IP使用的地址范围
-  fake-ip-filter:
-    - "*.lan"
-    - localhost.ptlogin2.qq.com
-    - +.srv.nintendo.net
-    - +.stun.playstation.net
-    - +.msftconnecttest.com
-    - +.msftncsi.com
-    - +.xboxlive.com
-    - msftconnecttest.com
-    - xbox.*.microsoft.com
-    - "*.battlenet.com.cn"
-    - "*.battlenet.com"
-    - "*.blzstatic.cn"
-    - "*.battle.net"
-    - "*.local"
-    - "*.localhost"
-    - "*.example"
-    - "*.invalid"
-    - "*.test"
-    - "*.localdomain"
-    - "+.pool.ntp.org"
-    - time.*.apple.com
-    - "*.music.163.com"
-    - "*.qq.com"
-    - "*.mcdn.bilivideo.cn"
-    - "+.nflxvideo.net"
-    - "+.tencent.com"
-    - "+.wotgame.cn"
-    - "+.sandai.net"
-  nameserver:        # 默认 DNS 服务
-    - 223.5.5.5
-    - 119.29.29.29
-    - 114.114.114.114
-  fallback:          # 国外 DNS 服务器
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-    - https://dns.alidns.com/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
-
-# 流量嗅探设置
+# 策略组选择和fakeip缓存
+profile:
+  store-selected: true
+  store-fake-ip: true
+  
+# 流量嗅探
 sniffer:
   enable: true
   sniff:
@@ -77,20 +46,83 @@ sniffer:
       ports: [443, 8443]
     QUIC:
       ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
   skip-domain:
-    - "Mijia Cloud"
+    - "dlg.io.mi.com"
     - "+.push.apple.com"
-
-# Tun 模式设置
+    - "+.apple.com"
+    
+# 代理模式
 tun:
   enable: true
-  stack: mixed  # 支持IPv4和IPv6
-  dns-hijack:   # 劫持DNS流量
+  stack: system
+  mtu: 1500
+  dns-hijack:
     - "any:53"
     - "tcp://any:53"
   auto-route: true
-  auto-redirect: true
+#  auto-redirect: true
   auto-detect-interface: true
+  
+# DNS模块
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  respect-rules: true
+  # 模式切换 redir-host / fake-ip
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  # 模式切换 whitelist/blacklist 
+  # 黑名单模式表示如果匹配成功则不返回 Fake-IP, 白名单模式时只有匹配成功才返回 Fake-IP
+  #fake-ip-filter-mode: whitelist
+  fake-ip-filter:
+    - '+.lan'
+    - '+.local'
+    - "connect.rom.miui.com"
+    - "+.miwifi.com"
+    - "+.ntp.org"
+    - "+.u-tools.cn"
+    - "+.mediatek.com"
+    - "+.cfprefer1.xyz"
+    - "+.wetab.link"
+    - "+.tyasaka.xyz"
+    # QQ
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    # WeChat
+    - "localhost.work.weixin.qq.com"
+    - "+.weixin.qq.com"
+    - "+.wechat.com"
+    # Windows
+    - "time.windows.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.wpsmail.net"
+    - "+.henzanapp.com"
+    - "+.pconline.com.cn"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  nameserver:
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+    - https://dns.sb/dns-query
+    - https://sky.rethinkdns.com/dns-query
+  nameserver-policy:
+    "geosite:cn":
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    "geosite:private":
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
 
 #==================== 分割 ====================#
 proxies:
