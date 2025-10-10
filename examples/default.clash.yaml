@@ -1,1 +1,571 @@
+port: 7890           # HTTP 代理端口
+socks-port: 7891     # Socks 端口
+redir-port: 7892     # Redir 端口
+mixed-port: 7893     # 混合端口
+allow-lan: false      # 不允许局域网连接
+bind-address: "*"    # 地址绑定
+mode: rule           # 规则模式
+log-level: info      # 日志级别
+ipv6: true           # 开启IPV6
+external-controller: 127.0.0.1:9090  # 外部控制器
 
+# 外部UI设置
+external-ui: ui
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+# 全局客户端指纹
+global-client-fingerprint: chrome
+
+# DNS 设置
+dns:
+  enable: true       # 启用DNS功能
+  ipv6: true         # 支持IPV6
+  listen: 0.0.0.0:53 # dns监听地址
+  enhanced-mode: fake-ip  # 启用Fake-IP模式
+  fake-ip-range: 198.18.0.1/16  # Fake IP使用的地址范围
+  fake-ip-filter:
+    - "*.lan"
+    - localhost.ptlogin2.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+    - +.xboxlive.com
+    - msftconnecttest.com
+    - xbox.*.microsoft.com
+    - "*.battlenet.com.cn"
+    - "*.battlenet.com"
+    - "*.blzstatic.cn"
+    - "*.battle.net"
+    - "*.local"
+    - "*.localhost"
+    - "*.example"
+    - "*.invalid"
+    - "*.test"
+    - "*.localdomain"
+    - "+.pool.ntp.org"
+    - time.*.apple.com
+    - "*.music.163.com"
+    - "*.qq.com"
+    - "*.mcdn.bilivideo.cn"
+    - "+.nflxvideo.net"
+    - "+.tencent.com"
+    - "+.wotgame.cn"
+    - "+.sandai.net"
+  nameserver:        # 默认 DNS 服务
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  fallback:          # 国外 DNS 服务器
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+# 流量嗅探设置
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+# Tun 模式设置
+tun:
+  enable: true
+  stack: mixed  # 支持IPv4和IPv6
+  dns-hijack:   # 劫持DNS流量
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+#==================== 分割 ====================#
+proxies:
+
+#==================== 分割 ====================#
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+
+  - name: HKG
+    type: select
+    proxies:
+      - /HK|🇭🇰|港|Hong/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+
+  - name: USA
+    type: select
+    proxies:
+      - /US|🇺🇸|美|States/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+
+  - name: JPN
+    type: select
+    proxies:
+      - /JP|🇯🇵|日|Jap/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+
+  - name: SGP
+    type: select
+    proxies:
+      - /SG|🇸🇬|新|Sin/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+
+  - name: TWN
+    type: select
+    proxies:
+      - /TW|🇨🇳|台|Tai|TP/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+    
+  - name: OpenAi
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+
+  - name: Twitter
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+
+  - name: YouTube
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+
+  - name: Netflix
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+
+  - name: Disney+
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
+
+  - name: HBO
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
+
+  - name: Bahamut
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png
+
+  - name: Emby
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
+
+  - name: PikPak
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/black2c7/Emby-icons/main/Icons/Pikpak.png
+
+  - name: BiliBili
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
+
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
+
+  - name: PayPal
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
+
+  - name: Google
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+
+  - name: GitHub
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
+
+  - name: Steam
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png
+
+  - name: Final
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+
+
+
+#==================== 分割 ====================#
+rule-providers:
+  Direct:
+    type: http
+    behavior: domain
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
+    path: ./ruleset/Direct.yaml
+
+  Lan:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+    path: ./ruleset/Lan.yaml
+
+  Download:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml
+    path: ./ruleset/Download.yaml
+
+  OpenAi:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+    path: ./ruleset/OpenAi.yaml
+
+  Telegram:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
+
+  YouTube:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+    path: ./ruleset/YouTube.yaml
+
+  Netflix:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_Classical.yaml
+    path: ./ruleset/Netflix.yaml
+
+  PikPak:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PikPak/PikPak.yaml
+    path: ./ruleset/PikPak.yaml
+
+  BiliBili:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
+    path: ./ruleset/BiliBili.yaml
+
+  Disney:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney.yaml
+    path: ./ruleset/Disney.yaml
+
+  HBO:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/HBO/HBO.yaml
+    path: ./ruleset/HBO.yaml
+
+  Bahamut:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
+    path: ./ruleset/Bahamut.yaml
+
+  GlobalMedia:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+    path: ./ruleset/GlobalMedia.yaml
+
+  Steam:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+    path: ./ruleset/Steam.yaml
+
+  Apple:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical.yaml
+    path: ./ruleset/Apple.yaml
+
+  Github:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
+    path: ./ruleset/Github.yaml
+
+  Microsoft:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+
+  Google:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
+    path: ./ruleset/Google.yaml
+
+  PayPal:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PayPal/PayPal.yaml
+    path: ./ruleset/PayPal.yaml
+
+  Twitter:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Twitter/Twitter.yaml
+    path: ./ruleset/Twitter.yaml
+
+  ProxyLite:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical.yaml
+    path: ./ruleset/Proxy_Classical.yaml
+
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
+    path: ./ruleset/ChinaIPs_IP.yaml
+
+
+#==================== 分割 ====================#
+rules:
+  - DOMAIN-SUFFIX,yeahfast.com,DIRECT    # 蘑菇硬盘
+  - DOMAIN,cdn-mtdb.gnar.pw,DIRECT       # 倒闭 cdn
+  - DOMAIN-SUFFIX,tiangou.xyz,DIRECT     # tank服
+  - DOMAIN-SUFFIX,cancanbi.com,Emby      # 倒闭ss
+  - DOMAIN-KEYWORD,sexemby.com,Emby      # 倒闭
+  - DOMAIN-SUFFIX,emby.to,Emby           # zdz gs
+  - DOMAIN-SUFFIX,ikuramoe.com,Emby      # jms gou
+  - DOMAIN-SUFFIX,st8.one,Emby           # jms gou
+  - DOMAIN-SUFFIX,mcjoker.xyz,Emby       # 叔服
+  - DOMAIN-SUFFIX,pdatv.cc,DIRECT        # 熊猫
+  - DOMAIN-SUFFIX,mobaiemby.site,Emby    # 墨白
+  - DOMAIN-SUFFIX,guguemby.site,Emby     # gugu
+  - DOMAIN-SUFFIX,gugu.media,Emby        # gugu
+  - DOMAIN-KEYWORD,223789.xyz,Emby        # 喜鹊
+  - DOMAIN-KEYWORD,magpie,Emby           # 喜鹊
+  - DOMAIN-KEYWORD,023168.xyz,Emby       # 喜鹊
+  - DOMAIN-SUFFIX,ii00.cc,Emby           # porn
+  - DOMAIN-KEYWORD,cn2gias,Emby          # 守候
+  - DOMAIN-SUFFIX,odysseyplus.site,Emby  # 奥德赛
+#==================== 分割 ====================#
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,Download,DIRECT
+  - RULE-SET,OpenAi,OpenAi
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,PikPak,PikPak
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,Bahamut,Bahamut
+  - RULE-SET,GlobalMedia,GlobalMedia
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,Apple,Apple
+  - RULE-SET,Github,GitHub
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Google,Google
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Steam,Steam
+  - RULE-SET,ProxyLite,Proxy
+  - RULE-SET,ChinaIP,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Final
