@@ -447,7 +447,7 @@ rules:
 # China 兜底
   - RULE-SET,Chinarp,DIRECT
 # 局域网地址
-  - RULE-SET,Lan,DIRECT
+  - RULE-SET,Lanrp,DIRECT
 # DNS 查询失败 Final 规则
   - MATCH,Final
 
