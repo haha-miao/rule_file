@@ -35,6 +35,6 @@ rules=[
 listen=""
 type="xxx"
 server="xxx"
-port=xxx
+port=12345
 password="xxx"
 cipher="xxx"
