@@ -1,0 +1,102 @@
+#路由 美国
+[[routes]]
+rules=[
+    #US
+    # > Philo
+    "domain:philo.com",
+    # > Discovery+
+    "domain:content-ause1-ur-discovery1.uplynk.com",
+    "domain:disco-api.com",
+    "domain:discoveryplus.com",
+    "domain:x-default-stgec.uplynk.com",
+    "domain:discovery.com",
+    "domain:discoveryplus.co.uk",
+    "domain:getblueshift.com",
+    "domain:litix.io",
+    "domain:mobile-collector.newrelic.com",
+    "domain:discovery.uplynk.com",
+    # > ESPN+
+    "domain:espn.co.uk",
+    "domain:espn.com",
+    "domain:espn.net",
+    "domain:espncdn.com",
+    "domain:espnqa.com",
+    "domain:watchespn.com",
+    "domain:espn.hb.omtrdc.net",
+    "domain:espndotcom.tt.omtrdc.net",
+    "domain:espn.api.edge.bamgrid.com",
+    # > Fox
+    "domain:x-live-fox-stgec.uplynk.com",
+    "domain:fox.com",
+    "domain:foxdcg.com",
+    "domain:theplatform.com",
+    "domain:cdn-fox-networks-group-green.akamaized.net",
+    "domain:d3cv4a9a9wh0bt.cloudfront.net",
+    "domain:foxsports01-i.akamaihd.net",
+    "domain:foxsports02-i.akamaihd.net",
+    "domain:foxsports03-i.akamaihd.net",
+    # > FuboTV
+    "domain:www.fubo.tv",
+    "domain:fubo.tv",
+    # > Paramount+
+    "domain:paramountplus.com",
+    "domain:cbsi.live.ott.irdeto.com",
+    "domain:cbsplaylistserver.aws.syncbak.com",
+    "domain:cbsservice.aws.syncbak.com",
+    "domain:link.theplatform.com",
+    "domain:cbsaavideo.com",
+    "domain:cbsi.com",
+    "domain:cbsivideo.com",
+    "domain:pplusstatic.com",
+    # > PeacockTV
+    "domain:geolocation.onetrust.com",
+    "domain:peacocktv.com",
+    "domain:peacock.com",
+    # > Star+
+    "geosite:starplus",
+    "domain:starplus.com",
+    "domain:starott.com",
+    "domain:star.api.edge.bamgrid.com",
+    "domain:star.connections.edge.bamgrid.com",
+    "domain:star.content.edge.bamgrid.com",
+    "domain:star.playback.edge.bamgrid.com",
+    # > BritBox
+    "domain:britbox.com",
+    "domain:www.britbox.com",
+    "domain:britbox.co.uk",
+    # > FXNOW
+    "domain:fxnow.fxnetworks.com",
+    # > Shudder
+    "domain:shudder.com",
+    "domain:www.shudder.com",
+    # > TLCGO"
+    "domain:www.tlc.com",
+    "domain:tlc.com",
+    "domain:go.tlc.com",
+    "domain:geolocation.onetrust.com",
+    # > PlutoTV
+    "geosite:plutotv",
+    # > SlingTV
+    "geosite:sling",
+    # > StarZ
+    "domain:starz.com",
+    # > encoreTVB
+    "domain:encoretvb.com",
+    "domain:bcbolt446c5271-a.akamaihd.net",
+    "domain:videos-f.jwpsrv.com",
+    "domain:content.jwplatform.com",
+    "domain:edge.api.brightcove.com",
+    # > Directv Stream
+    "domain:atttvnow.com",
+    # > Epix
+    "domain:epix.com",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="xxx"
+server="xxx"
+port=12345
+password="xxx"
+cipher="xxx"
