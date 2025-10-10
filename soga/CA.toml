@@ -1,0 +1,27 @@
+#路由 加拿大
+[[routes]]
+rules=[
+    #CA
+    # > CBC Gem
+    "domain:cbc.ca",
+    "domain:cbchd1dynamicads-i.akamaihd.net",
+    "domain:cbclivedai5-i.akamaihd.net",
+    "domain:cbcnewshd-f.akamaihd.net",
+    "domain:cbcrcott-gem-key.akamaized.net",
+    "domain:cbcrcott-gem.akamaized.net",
+    "domain:go-mpulse.net",
+    "domain:theplatform.com",
+    # > Crave TV
+    "domain:crave.ca",
+    "domain:go-mpulse.net",
+    "domain:9c9media.com",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="xxx"
+server="xxx"
+port=12345
+password="xxx"
+cipher="xxx"

@@ -1,0 +1,45 @@
+#路由 台湾
+[[routes]]
+rules=[
+    #TW
+    # > Bahamut
+    "domain:bahamut.akamaized.net",
+    "domain:bahamut.com.tw",    
+    "domain:gamer.com.tw",
+    "domain:gamer-cds.cdn.hinet.net",
+    "domain:gamer2-cds.cdn.hinet.net",
+    # > KKTV
+    "domain:kktv.com.tw",
+    "domain:kktv.me",
+    "domain:kk.stream",
+    # > LiTV
+    "domain:litv.tv",
+    "domain:LiTV.tv",
+    "domain:cdn.hinet.net",
+    # > LineTV.TW
+    "domain:chocotv.com.tw",
+    "domain:line-cdn.net",
+    "domain:line-scdn.net",
+    "domain:linetv.tw",
+    # > CatchPlay
+    "domain:catchplay.com.tw",
+    "domain:catchplay.com",
+    "domain:d2ivmxp5z2ww0n.cloudfront.net",
+    "domain:ols-ww100-cp.akamaized.net",
+    "domain:tra-www000-cp.akamaized.net",
+    # > Hami
+    "geosite:hamivideo",
+    "domain:hls-hichannel.cdn.hinet.net",
+    "domain:hamivideo.hinet.net",
+    "domain:hamivideo.hinet.net",
+    "domain:hamivideo.cdn.hinet.net",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="xxx"
+server="xxx"
+port=12345
+password="xxx"
+cipher="xxx"

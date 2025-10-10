@@ -1,0 +1,702 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7894
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+  
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 48
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+#  asn: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb"
+
+
+external-controller: 127.0.0.1:9090
+secret: "asdf1234"
+external-ui: ui
+external-ui-url: "https://ghp.ci/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+# 匹配进程 always/strict/off
+find-process-mode: strict
+global-client-fingerprint: chrome
+keep-alive-idle: 600
+keep-alive-interval: 30
+
+# 策略组选择和fakeip缓存
+profile:
+  store-selected: true
+  store-fake-ip: true
+  
+# 流量嗅探
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+  skip-domain:
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
+    - "+.apple.com"
+    
+# 代理模式
+tun:
+  enable: true
+  stack: system
+  mtu: 1500
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+#  auto-redirect: true
+  auto-detect-interface: true
+  
+# DNS模块
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  respect-rules: true
+  # 模式切换 redir-host / fake-ip
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  # 模式切换 whitelist/blacklist 
+  # 黑名单模式表示如果匹配成功则不返回 Fake-IP, 白名单模式时只有匹配成功才返回 Fake-IP
+  #fake-ip-filter-mode: whitelist
+  fake-ip-filter:
+    - '+.lan'
+    - '+.local'
+    - "connect.rom.miui.com"
+    - "+.miwifi.com"
+    - "+.ntp.org"
+    - "+.u-tools.cn"
+    - "+.mediatek.com"
+    - "+.cfprefer1.xyz"
+    - "+.wetab.link"
+    - "+.tyasaka.xyz"
+    # QQ
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    # WeChat
+    - "localhost.work.weixin.qq.com"
+    - "+.weixin.qq.com"
+    - "+.wechat.com"
+    # Windows
+    - "time.windows.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.wpsmail.net"
+    - "+.henzanapp.com"
+    - "+.pconline.com.cn"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  nameserver:
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.google/dns-query
+    - https://dns.sb/dns-query
+    - https://sky.rethinkdns.com/dns-query
+  nameserver-policy:
+    "geosite:cn":
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    "geosite:private":
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+
+#==================== 分割 ====================#
+proxies:
+
+#==================== 分割 ====================#
+#需同时满足HKG,USA,JPN,SGP,TWN不然报错
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+
+  - name: HKG
+    type: select
+    proxies:
+      - /HK|🇭🇰|港|Hong/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+
+  - name: USA
+    type: select
+    proxies:
+      - /US|🇺🇸|美|States/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+
+  - name: JPN
+    type: select
+    proxies:
+      - /JP|🇯🇵|日|Jap/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+
+  - name: SGP
+    type: select
+    proxies:
+      - /SG|🇸🇬|新|Sin/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+
+  - name: TWN
+    type: select
+    proxies:
+      - /TW|🇨🇳|台|Tai|TP/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+
+  - name: Edge
+    type: select
+    proxies:
+      - /🇰🇷|KR|KOR|🇩🇪|DE|GER|🇳🇱|NL|NLD|🇬🇧|UK|GB|ENG|🇫🇷|FR|FRA|🇨🇭|CH|CHE|🇨🇦|CA|CAN|🇮🇳|IN|IND|🇮🇩|ID|IDN|🇲🇾|MY|MYS|🇹🇭|TH|THA|🇻🇳|VN|VNM|🇵🇭|PH|PHL|🇮🇹|IT|ITA|🇪🇸|ES|ESP|🇸🇪|SE|SWE|🇳🇴|NO|NOR|🇫🇮|FI|FIN|🇩🇰|DK|DNK|🇷🇺|RU|RUS|🇵🇱|PL|POL|🇨🇿|CZ|CZE|🇸🇰|SK|SVK|🇭🇺|HU|HUN|🇧🇪|BE|BEL|🇦🇹|AT|AUT|🇦🇺|AU|AUS|🇳🇿|NZ|NZL|🇧🇷|BR|BRA|🇲🇽|MX|MEX|🇮🇱|IL|ISR|🇹🇷|TR|TUR|🇦🇪|AE|UAE|🇸🇦|SA|KSA|🇶🇦|QA|QAT|🇿🇦|ZA|ZAF/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Nations.png
+    
+  - name: OpenAi
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+
+  - name: Google
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+
+  - name: PayPal
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
+
+  - name: Crypto
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/bian.png
+
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+
+  - name: Discord
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
+
+  - name: Twitter
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+
+  - name: YouTube
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+
+  - name: Netflix
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+
+  - name: Disney+
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
+
+  - name: HBO
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
+
+  - name: Bahamut
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png
+
+  - name: BiliBili
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
+
+  - name: Emby
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
+
+  - name: PikPak
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/black2c7/Emby-icons/main/Icons/Pikpak.png
+
+  - name: GitHub
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
+
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+
+  - name: Steam
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png
+
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
+
+  - name: Final
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+
+
+#==================== 分割 ====================#
+rules:
+# > Emby
+  - RULE-SET,Emby-directrp,DIRECT
+  - RULE-SET,Emby-proxyrp,Emby
+# > 腾讯 WeChat
+  - RULE-SET,WeChatrp,DIRECT
+# > 防止应用循环请求
+  - IP-CIDR,0.0.0.0/32,REJECT,no-resolve
+# > 规则修正
+  - RULE-SET,Directrp,DIRECT
+# > 虚拟货币
+  - RULE-SET,Cryptorp,Crypto
+# > PayPal
+  - RULE-SET,PayPalrp,PayPal
+# > TG
+  - RULE-SET,Telegramrp,Telegram
+# > Open AI
+  - RULE-SET,OpenAirp,OpenAi
+# > Discord
+  - RULE-SET,Discordrp,Discord
+# > PikPak
+  - RULE-SET,PikPakrp,PikPak
+# > YouTube
+  - RULE-SET,YouTuberp,YouTube
+# > Twitter
+  - RULE-SET,Twitterrp,Twitter
+# > Netflix
+  - RULE-SET,Netflixrp,Netflix
+# > Disney+
+  - RULE-SET,Disneyrp,Disney+
+# > HBO
+  - RULE-SET,HBOrp,HBO
+# > 动画疯
+  - RULE-SET,Bahamutrp,Bahamut
+# > Bilibili
+  - RULE-SET,BiliBilirp,BiliBili
+# > 苹果微软谷歌
+  - RULE-SET,Applerp,Apple
+  - RULE-SET,Githubrp,GitHub
+  - RULE-SET,Microsoftrp,Microsoft
+  - RULE-SET,Googlerp,Google
+# > Steam
+  - RULE-SET,Steamrp,Steam
+  - RULE-SET,SteamCNrp,Steam
+# > 全球媒体
+  - RULE-SET,GlobalMediarp,GlobalMedia
+# Proxy 兜底
+  - RULE-SET,Proxyrp,Proxy
+# China 兜底
+  - RULE-SET,Chinarp,DIRECT
+# 局域网地址
+  - RULE-SET,Lanrp,DIRECT
+# DNS 查询失败 Final 规则
+  - MATCH,Final
+
+
+#==================== 分割 ====================#
+rule-providers:
+
+  Directrp:
+    type: http
+    behavior: domain
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct_No_Resolve.yaml
+    path: ./ruleset/Direct_No_Resolve.yaml
+
+  Cryptorp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/crypto/Crypto.yaml
+    path: ./ruleset/Crypto.yaml
+
+  Discordrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Discord/Discord_No_Resolve.yaml
+    path: ./ruleset/Discord_No_Resolve.yaml
+
+  WeChatrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat_No_Resolve.yaml
+    path: ./ruleset/WeChat_No_Resolve.yaml
+
+  Lanrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan_No_Resolve.yaml
+    path: ./ruleset/Lan_No_Resolve.yaml
+
+  OpenAirp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+    path: ./ruleset/OpenAI_No_Resolve.yaml
+
+  Telegramrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml
+    path: ./ruleset/Telegram_No_Resolve.yaml
+
+  YouTuberp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
+    path: ./ruleset/YouTube_No_Resolve.yaml
+
+  Netflixrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix_Classical_No_Resolve.yaml
+    path: ./ruleset/Netflix_Classical_No_Resolve.yaml
+
+  PikPakrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PikPak/PikPak_No_Resolve.yaml
+    path: ./ruleset/PikPak_No_Resolve.yaml
+
+  BiliBilirp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml
+    path: ./ruleset/BiliBili_No_Resolve.yaml
+
+  Disneyrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney_No_Resolve.yaml
+    path: ./ruleset/Disney_No_Resolve.yaml
+
+  HBOrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO_No_Resolve.yaml
+    path: ./ruleset/HBO_No_Resolve.yaml
+
+  Bahamutrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut_No_Resolve.yaml
+    path: ./ruleset/Bahamut_No_Resolve.yaml
+
+  GlobalMediarp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml
+    path: ./ruleset/GlobalMedia_Classical_No_Resolve.yaml
+
+  Steamrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam_No_Resolve.yaml
+    path: ./ruleset/Steam_No_Resolve.yaml
+
+  SteamCNrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml
+    path: ./ruleset/SteamCN_No_Resolve.yaml
+
+  Applerp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
+    path: ./ruleset/Apple_Classical_No_Resolve.yaml
+
+  Githubrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
+    path: ./ruleset//GitHub_No_Resolve.yaml
+
+  Microsoftrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+    path: ./ruleset/Microsoft_No_Resolve.yaml
+
+  Googlerp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google_No_Resolve.yaml
+    path: ./ruleset/Google_No_Resolve.yaml
+
+  PayPalrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal_No_Resolve.yaml
+    path: ./ruleset/PayPal_No_Resolve.yaml
+
+  Twitterrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter_No_Resolve.yaml
+    path: ./ruleset/Twitter_No_Resolve.yaml
+
+  Emby-directrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-direct.yaml
+    path: ./ruleset/emby-direct.yaml
+
+  Emby-proxyrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-proxy.yaml
+    path: ./ruleset/emby-proxy.yaml
+
+  Proxyrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy_Classical_No_Resolve.yaml
+    path: ./ruleset/Proxy_Classical_No_Resolve.yaml
+
+  Chinarp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml
+    path: ./ruleset/ChinaMax_Classical_No_Resolve.yaml
