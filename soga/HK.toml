@@ -1,0 +1,71 @@
+#路由 香港
+[[routes]]
+rules=[
+    #HK
+    # > MyTvSuper
+    "domain:bigbigchannel.com.hk",
+    "domain:bigbigshop.com",
+    "domain:content.jwplatform.com",
+    "domain:encoretvb.com",
+    "domain:mytvsuper.com",
+    "domain:mytvsuperlimited.hb.omtrdc.net",
+    "domain:mytvsuperlimited.sc.omtrdc.net",
+    # > VIU
+    "domain:www.viu.tv",
+    "domain:www.viu.com",
+    "domain:viu.tv",
+    "domain:viu.com",
+    "domain:d3o7oi00quuwqu.cloudfront.net",
+    # > Bilibili
+    "domain:yo9.com",
+    "domain:bilicomics.com",
+    "domain:acg.tv",
+    "domain:acgvideo.com",
+    "domain:animetamashi.cn",
+    "domain:animetamashi.com",
+    "domain:anitama.cn",
+    "domain:anitama.net",
+    "domain:b23.tv",
+    "domain:bigfun.cn",
+    "domain:bigfunapp.cn",
+    "domain:bili22.cn",
+    "domain:bili2233.cn",
+    "domain:bili23.cn",
+    "domain:bili33.cn",
+    "domain:biliapi.com",
+    "domain:biliapi.net",
+    "domain:bilibili.cc",
+    "domain:bilibili.cn",
+    "domain:bilibili.com",
+    "domain:bilibili.net",
+    "domain:bilibili.tv",
+    "domain:bilibilipay.cn",
+    "domain:bilibilipay.com",
+    "domain:bilicdn1.com",
+    "domain:bilicdn2.com",
+    "domain:bilicdn3.com",
+    "domain:bilicdn4.com",
+    "domain:bilicdn5.com",
+    "domain:biligo.com",
+    "domain:biliintl.com",
+    "domain:bilivideo.cn",
+    "domain:bilivideo.com",
+    "domain:bilivideo.net",
+    "domain:dreamcast.hk",
+    "domain:hdslb.com",
+    "domain:hdslb.org",
+    "domain:im9.com",
+    "domain:maoercdn.com",
+    "domain:mincdn.com",
+    # > NowE
+    "geosite:now",
+    "domain:nowestatic.com",
+]
+
+[[routes.Outs]]
+listen=""
+type="xxx"
+server="xxx"
+port=12345
+password="xxx"
+cipher="xxx"
