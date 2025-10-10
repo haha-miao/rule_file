@@ -217,7 +217,23 @@ rules=[
     "domain:hboasialive.akamaized.net",
     "domain:hbogoprod-vod.akamaized.net",
     "domain:wmff.warnermediacdn.com",
+    #others
+    # > Wikipedia
+    "domain:wikipedia.org",
+    "domain:wikipedia.org.com",
+    # > Setanta
+    "domain:www.setantasports.com",
+    "domain:setantasports.com",
+    "domain:app.setantasports.com",
+    "domain:imggaming.com",
+    "domain:diceplatform.com",
+    "domain:dicelaboratory.com",
+    "domain:pndsn.com",
+    "domain:imggaming.s3-eu-west-1.amazonaws.com",
+    "domain:ux1kpaebv0.execute-api.eu-west-1.amazonaws.com",
+    "domain:1ok961aaca.execute-api.eu-west-1.amazonaws.com",
 ]
+
 
 [[routes.Outs]]
 listen=""
