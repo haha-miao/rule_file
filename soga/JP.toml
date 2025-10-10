@@ -1,0 +1,143 @@
+#路由 日本
+[[routes]]
+rules=[
+    #JP
+    # > Hulu
+    "geosite:hulu",
+    "domain:112263.com",
+    "domain:callhulu.com",
+    "domain:findyourlimits.com",
+    "domain:freehulu.com",
+    "domain:hooloo.tv",
+    "domain:hoolu.com",
+    "domain:hoolu.tv",
+    "domain:hu1u.com",
+    "domain:huloo.cc",
+    "domain:huloo.tv",
+    "domain:hulu.com",
+    "domain:hulu.jp",
+    "domain:hulu.tv",
+    "domain:hulu.us",
+    "domain:huluaction.com",
+    "domain:huluad.com",
+    "domain:huluapp.com",
+    "domain:huluasks.com",
+    "domain:hulucall.com",
+    "domain:hulufree.com",
+    "domain:hulugans.com",
+    "domain:hulugermany.com",
+    "domain:hulugo.com",
+    "domain:huluim.com",
+    "domain:huluinstantmessenger.com",
+    "domain:huluitaly.com",
+    "domain:hulunet.com",
+    "domain:hulunetwork.com",
+    "domain:huluplus.com",
+    "domain:hulupremium.com",
+    "domain:hulupurchase.com",
+    "domain:huluqa.com",
+    "domain:hulurussia.com",
+    "domain:huluspain.com",
+    "domain:hulusports.com",
+    "domain:hulustream.com",
+    "domain:huluteam.com",
+    "domain:hulutv.com",
+    "domain:huluusa.com",
+    "domain:joinmaidez.com",
+    "domain:mushymush.tv",
+    "domain:myhulu.com",
+    "domain:originalhulu.com",
+    "domain:payhulu.com",
+    "domain:registerhulu.com",
+    "domain:thehulubraintrust.com",
+    "domain:wwwhuluplus.com",
+    # > Niconico
+    "domain:nicodic.jp",
+    "domain:nicomanga.jp",
+    "domain:niconico.com",
+    "domain:nicoseiga.jp",
+    "domain:nicovideo.jp",
+    "domain:nimg.jp",
+    "domain:simg.jp",
+    # > Abema
+    "geosite:abema",
+    "domain:abema.io",
+    "domain:abema.tv",
+    "domain:abema-tv.com",
+    "domain:adx.promo",
+    "domain:ameba.jp",
+    "domain:amebame.com",
+    "domain:amebaownd.com",
+    "domain:amebaowndme.com",
+    "domain:ameblo.jp",
+    "domain:bucketeer.jp",
+    "domain:dokusho-ojikan.jp",
+    "domain:hayabusa.dev",
+    "domain:hayabusa.io",
+    "domain:hayabusa.media",
+    "domain:winticket.jp",
+    "domain:ds-linear-abematv.akamaized.net",
+    "domain:linear-abematv.akamaized.net",
+    "domain:ds-vod-abematv.akamaized.net",
+    "domain:vod-abematv.akamaized.net",
+    "domain:mobile-collector.newrelic.com",
+    "domain:abema.adx.promo",
+    # > DAM"
+    "domain:clubdam.com",
+    # > U-NEXT"
+    "domain:unext.jp",
+    "domain:nxtv.jp",
+    # > DMM"
+    "domain:dmm-extension.com",
+    "domain:dmm.co.jp",
+    "domain:dmm.com",
+    "domain:videomarket.jp",
+    "domain:p-smith.com",
+    "domain:vmdash-cenc.akamaized.net",
+    "domain:img.vm-movie.jp",
+    "domain:bam.nr-data.net",
+    # > WOWOW"
+    "domain:wowow.co.jp",
+    # > J:com On Demand
+    "domain:auth.id2.zaq.ne.jp",
+    # > FOD
+    "domain:fod.fujitv.co.jp",
+    "domain:fod-sp.fujitv.co.jp",
+    "domain:i.fod.fujitv.co.jp",
+    "domain:stream.ne.jp",
+    # > Music.JP
+    "domain:music-book.jp",
+    "domain:overseaauth.music-book.jp",
+    # > Radiko
+    "domain:radiko.jp",
+    "domain:radionikkei.jp",
+    "domain:smartstream.ne.jp",
+    # > Telasa
+    "domain:telasa.jp",
+    "domain:kddi-video.com",
+    "domain:videopass.jp",
+    "domain:d2lmsumy47c8as.cloudfront.net",
+    # > Japanese Games
+    "domain:cygames.jp",
+    "domain:konosubafd.jp",
+    "domain:colorfulpalette.org",
+    "domain:cds1.clubdam.com",
+    "domain:api.worldflipper.jp",
+    # > Rakuten TV JP
+    "geosite:rakuten",
+    # > AnimeFesta JP
+    "domain:iowl.jp",
+    # > Lemino
+    "domain:lemino.docomo.ne.jp",
+    # > D Anime Store
+    "domain:animestore.docomo.ne.jp",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="xxx"
+server="xxx"
+port=12345
+password="xxx"
+cipher="xxx"
