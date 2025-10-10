@@ -81,6 +81,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
 
@@ -113,6 +114,12 @@ proxy-groups:
     proxies:
       - /TW|🇨🇳|台|Tai|TP/
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+
+  - name: Edge
+    type: select
+    proxies:
+      - /🇰🇷|KR|KOR|🇩🇪|DE|GER|🇳🇱|NL|NLD|🇬🇧|UK|GB|ENG|🇫🇷|FR|FRA|🇨🇭|CH|CHE|🇨🇦|CA|CAN|🇮🇳|IN|IND|🇮🇩|ID|IDN|🇲🇾|MY|MYS|🇹🇭|TH|THA|🇻🇳|VN|VNM|🇵🇭|PH|PHL|🇮🇹|IT|ITA|🇪🇸|ES|ESP|🇸🇪|SE|SWE|🇳🇴|NO|NOR|🇫🇮|FI|FIN|🇩🇰|DK|DNK|🇷🇺|RU|RUS|🇵🇱|PL|POL|🇨🇿|CZ|CZE|🇸🇰|SK|SVK|🇭🇺|HU|HUN|🇧🇪|BE|BEL|🇦🇹|AT|AUT|🇦🇺|AU|AUS|🇳🇿|NZ|NZL|🇧🇷|BR|BRA|🇲🇽|MX|MEX|🇮🇱|IL|ISR|🇹🇷|TR|TUR|🇦🇪|AE|UAE|🇸🇦|SA|KSA|🇶🇦|QA|QAT|🇿🇦|ZA|ZAF/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Nations.png
     
   - name: OpenAi
     type: select
@@ -124,7 +131,47 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+
+  - name: Google
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+
+  - name: PayPal
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
+
+  - name: Crypto
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/bian.png
 
   - name: Telegram
     type: select
@@ -136,7 +183,21 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+
+  - name: Discord
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
 
   - name: Twitter
     type: select
@@ -148,6 +209,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
 
   - name: YouTube
@@ -160,6 +222,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 
   - name: Netflix
@@ -172,6 +235,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
 
   - name: Disney+
@@ -184,6 +248,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
 
   - name: HBO
@@ -196,6 +261,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
 
   - name: Bahamut
@@ -208,7 +274,21 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png
+
+  - name: BiliBili
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
 
   - name: Emby
     type: select
@@ -220,6 +300,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
 
   - name: PikPak
@@ -232,21 +313,10 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/black2c7/Emby-icons/main/Icons/Pikpak.png
 
-  - name: BiliBili
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy
-      - HKG
-      - USA
-      - JPN
-      - SGP
-      - TWN
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
-
-  - name: GlobalMedia
+  - name: GitHub
     type: select
     proxies:
       - Proxy
@@ -256,31 +326,8 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
-
-  - name: PayPal
-    type: select
-    proxies:
-      - Proxy
-      - DIRECT
-      - HKG
-      - USA
-      - JPN
-      - SGP
-      - TWN
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
-
-  - name: Google
-    type: select
-    proxies:
-      - Proxy
-      - DIRECT
-      - HKG
-      - USA
-      - JPN
-      - SGP
-      - TWN
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
 
   - name: Microsoft
     type: select
@@ -292,6 +339,7 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
 
   - name: Apple
@@ -304,19 +352,8 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-
-  - name: GitHub
-    type: select
-    proxies:
-      - Proxy
-      - DIRECT
-      - HKG
-      - USA
-      - JPN
-      - SGP
-      - TWN
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
 
   - name: Steam
     type: select
@@ -328,7 +365,21 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png
+
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
 
   - name: Final
     type: select
@@ -340,208 +391,255 @@ proxy-groups:
       - JPN
       - SGP
       - TWN
+      - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
-
-
-
-#==================== 分割 ====================#
-rule-providers:
-  Direct:
-    type: http
-    behavior: domain
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
-    path: ./ruleset/Direct.yaml
-
-  Lan:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
-    path: ./ruleset/Lan.yaml
-
-  Download:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml
-    path: ./ruleset/Download.yaml
-
-  OpenAi:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
-    path: ./ruleset/OpenAi.yaml
-
-  Telegram:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
-    path: ./ruleset/Telegram.yaml
-
-  YouTube:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
-    path: ./ruleset/YouTube.yaml
-
-  Netflix:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_Classical.yaml
-    path: ./ruleset/Netflix.yaml
-
-  PikPak:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PikPak/PikPak.yaml
-    path: ./ruleset/PikPak.yaml
-
-  BiliBili:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
-    path: ./ruleset/BiliBili.yaml
-
-  Disney:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney.yaml
-    path: ./ruleset/Disney.yaml
-
-  HBO:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/HBO/HBO.yaml
-    path: ./ruleset/HBO.yaml
-
-  Bahamut:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
-    path: ./ruleset/Bahamut.yaml
-
-  GlobalMedia:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
-    path: ./ruleset/GlobalMedia.yaml
-
-  Steam:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
-    path: ./ruleset/Steam.yaml
-
-  Apple:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical.yaml
-    path: ./ruleset/Apple.yaml
-
-  Github:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
-    path: ./ruleset/Github.yaml
-
-  Microsoft:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
-    path: ./ruleset/Microsoft.yaml
-
-  Google:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
-    path: ./ruleset/Google.yaml
-
-  PayPal:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PayPal/PayPal.yaml
-    path: ./ruleset/PayPal.yaml
-
-  Twitter:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Twitter/Twitter.yaml
-    path: ./ruleset/Twitter.yaml
-
-  ProxyLite:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical.yaml
-    path: ./ruleset/Proxy_Classical.yaml
-
-  ChinaIP:
-    type: http
-    behavior: ipcidr
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
-    path: ./ruleset/ChinaIPs_IP.yaml
 
 
 #==================== 分割 ====================#
 rules:
-  - DOMAIN-SUFFIX,yeahfast.com,DIRECT    # 蘑菇硬盘
-  - DOMAIN,cdn-mtdb.gnar.pw,DIRECT       # 倒闭 cdn
-  - DOMAIN-SUFFIX,tiangou.xyz,DIRECT     # tank服
-  - DOMAIN-SUFFIX,cancanbi.com,Emby      # 倒闭ss
-  - DOMAIN-KEYWORD,sexemby.com,Emby      # 倒闭
-  - DOMAIN-SUFFIX,emby.to,Emby           # zdz gs
-  - DOMAIN-SUFFIX,ikuramoe.com,Emby      # jms gou
-  - DOMAIN-SUFFIX,st8.one,Emby           # jms gou
-  - DOMAIN-SUFFIX,mcjoker.xyz,Emby       # 叔服
-  - DOMAIN-SUFFIX,pdatv.cc,DIRECT        # 熊猫
-  - DOMAIN-SUFFIX,mobaiemby.site,Emby    # 墨白
-  - DOMAIN-SUFFIX,guguemby.site,Emby     # gugu
-  - DOMAIN-SUFFIX,gugu.media,Emby        # gugu
-  - DOMAIN-KEYWORD,223789.xyz,Emby        # 喜鹊
-  - DOMAIN-KEYWORD,magpie,Emby           # 喜鹊
-  - DOMAIN-KEYWORD,023168.xyz,Emby       # 喜鹊
-  - DOMAIN-SUFFIX,ii00.cc,Emby           # porn
-  - DOMAIN-KEYWORD,cn2gias,Emby          # 守候
-  - DOMAIN-SUFFIX,odysseyplus.site,Emby  # 奥德赛
-#==================== 分割 ====================#
-  - RULE-SET,Direct,DIRECT
+# > Emby
+  - RULE-SET,Emby-directrp,DIRECT
+  - RULE-SET,Emby-proxyrp,Emby
+# > 腾讯 WeChat
+  - RULE-SET,WeChatrp,DIRECT
+# > 防止应用循环请求
+  - IP-CIDR,0.0.0.0/32,REJECT,no-resolve
+# > 规则修正
+  - RULE-SET,Directrp,DIRECT
+# > 虚拟货币
+  - RULE-SET,Cryptorp,Crypto
+# > PayPal
+  - RULE-SET,PayPalrp,PayPal
+# > TG
+  - RULE-SET,Telegramrp,Telegram
+# > Open AI
+  - RULE-SET,OpenAirp,OpenAi
+# > Discord
+  - RULE-SET,Discordrp,Discord
+# > PikPak
+  - RULE-SET,PikPakrp,PikPak
+# > YouTube
+  - RULE-SET,YouTuberp,YouTube
+# > Twitter
+  - RULE-SET,Twitterrp,Twitter
+# > Netflix
+  - RULE-SET,Netflixrp,Netflix
+# > Disney+
+  - RULE-SET,Disneyrp,Disney+
+# > HBO
+  - RULE-SET,HBOrp,HBO
+# > 动画疯
+  - RULE-SET,Bahamutrp,Bahamut
+# > Bilibili
+  - RULE-SET,BiliBilirp,BiliBili
+# > 苹果微软谷歌
+  - RULE-SET,Applerp,Apple
+  - RULE-SET,Githubrp,GitHub
+  - RULE-SET,Microsoftrp,Microsoft
+  - RULE-SET,Googlerp,Google
+# > Steam
+  - RULE-SET,Steamrp,Steam
+  - RULE-SET,SteamCNrp,Steam
+# > 全球媒体
+  - RULE-SET,GlobalMediarp,GlobalMedia
+# Proxy 兜底
+  - RULE-SET,Proxyrp,Proxy
+# China 兜底
+  - RULE-SET,Chinarp,DIRECT
+# 局域网地址
   - RULE-SET,Lan,DIRECT
-  - RULE-SET,Download,DIRECT
-  - RULE-SET,OpenAi,OpenAi
-  - RULE-SET,Telegram,Telegram
-  - RULE-SET,PikPak,PikPak
-  - RULE-SET,YouTube,YouTube
-  - RULE-SET,Netflix,Netflix
-  - RULE-SET,BiliBili,BiliBili
-  - RULE-SET,Bahamut,Bahamut
-  - RULE-SET,GlobalMedia,GlobalMedia
-  - RULE-SET,PayPal,PayPal
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Github,GitHub
-  - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Google,Google
-  - RULE-SET,Twitter,Twitter
-  - RULE-SET,Steam,Steam
-  - RULE-SET,ProxyLite,Proxy
-  - RULE-SET,ChinaIP,DIRECT
-  - GEOIP,CN,DIRECT
+# DNS 查询失败 Final 规则
   - MATCH,Final
+
+
+#==================== 分割 ====================#
+rule-providers:
+
+  Directrp:
+    type: http
+    behavior: domain
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct_No_Resolve.yaml
+    path: ./ruleset/Direct_No_Resolve.yaml
+
+  Cryptorp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/crypto/Crypto.yaml
+    path: ./ruleset/Crypto.yaml
+
+  Discordrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Discord/Discord_No_Resolve.yaml
+    path: ./ruleset/Discord_No_Resolve.yaml
+
+  WeChatrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat_No_Resolve.yaml
+    path: ./ruleset/WeChat_No_Resolve.yaml
+
+  Lanrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan_No_Resolve.yaml
+    path: ./ruleset/Lan_No_Resolve.yaml
+
+  OpenAirp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+    path: ./ruleset/OpenAI_No_Resolve.yaml
+
+  Telegramrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml
+    path: ./ruleset/Telegram_No_Resolve.yaml
+
+  YouTuberp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
+    path: ./ruleset/YouTube_No_Resolve.yaml
+
+  Netflixrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix_Classical_No_Resolve.yaml
+    path: ./ruleset/Netflix_Classical_No_Resolve.yaml
+
+  PikPakrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PikPak/PikPak_No_Resolve.yaml
+    path: ./ruleset/PikPak_No_Resolve.yaml
+
+  BiliBilirp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml
+    path: ./ruleset/BiliBili_No_Resolve.yaml
+
+  Disneyrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney_No_Resolve.yaml
+    path: ./ruleset/Disney_No_Resolve.yaml
+
+  HBOrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO_No_Resolve.yaml
+    path: ./ruleset/HBO_No_Resolve.yaml
+
+  Bahamutrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut_No_Resolve.yaml
+    path: ./ruleset/Bahamut_No_Resolve.yaml
+
+  GlobalMediarp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml
+    path: ./ruleset/GlobalMedia_Classical_No_Resolve.yaml
+
+  Steamrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam_No_Resolve.yaml
+    path: ./ruleset/Steam_No_Resolve.yaml
+
+  SteamCNrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml
+    path: ./ruleset/SteamCN_No_Resolve.yaml
+
+  Applerp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
+    path: ./ruleset/Apple_Classical_No_Resolve.yaml
+
+  Githubrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
+    path: ./ruleset//GitHub_No_Resolve.yaml
+
+  Microsoftrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+    path: ./ruleset/Microsoft_No_Resolve.yaml
+
+  Googlerp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google_No_Resolve.yaml
+    path: ./ruleset/Google_No_Resolve.yaml
+
+  PayPalrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal_No_Resolve.yaml
+    path: ./ruleset/PayPal_No_Resolve.yaml
+
+  Twitterrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter_No_Resolve.yaml
+    path: ./ruleset/Twitter_No_Resolve.yaml
+
+  Emby-directrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-direct.yaml
+    path: ./ruleset/emby-direct.yaml
+
+  Emby-proxyrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-proxy.yaml
+    path: ./ruleset/emby-proxy.yaml
+
+  Proxyrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy_Classical_No_Resolve.yaml
+    path: ./ruleset/Proxy_Classical_No_Resolve.yaml
+
+  Chinarp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml
+    path: ./ruleset/ChinaMax_Classical_No_Resolve.yaml
