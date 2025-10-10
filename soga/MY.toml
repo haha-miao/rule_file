@@ -1,0 +1,20 @@
+#路由 MY
+[[routes]]
+rules = [
+    # > Hotstar
+    "geosite:hotstar",
+    # > Meta AI
+    "domain:meta.ai",
+    # > Perplexity
+    "geosite:perplexity",
+
+]
+
+
+[[routes.Outs]]
+listen=""
+type="xxx"
+server="xxx"
+port=12345
+password="xxx"
+cipher="xxx"
