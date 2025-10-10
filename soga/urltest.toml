@@ -1,0 +1,15 @@
+[[routes]]
+rules=[
+    "domain:cp.cloudflare.com",
+    "domain:gstatic.com",
+    "domain:i.ytimg.com",
+    "domain:nmcheck.gnome.org",
+    "domain:detectportal.firefox.com",
+    "domain:captive.apple.com",
+    "domain:captive.v2ex.co",
+    "domain:latency-test.skk.moe",
+    "domain:connectivitycheck.android.com",
+]
+
+[[routes.Outs]]
+type="direct"
