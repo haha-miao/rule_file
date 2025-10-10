@@ -62,6 +62,7 @@ rules=[
     "domain:nowestatic.com",
 ]
 
+
 [[routes.Outs]]
 listen=""
 type="xxx"
