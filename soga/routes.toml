@@ -1,0 +1,51 @@
+# 是否启用路由，若关闭则默认直连
+enable=true
+
+# 路由 1 配置至少一个代理出口
+[[routes]]
+rules=[
+"geosite:netflix",
+"domain:google.com",
+"geoip:cn",
+"ip:1.2.3.4/24",
+"port:80,443,1000-2000",
+"node_id:1,2,3",
+]
+
+[[routes.Outs]] # 路由 1 代理出口 1
+listen="" # 出口网卡 ip
+type="socks"
+server="xxx.com"
+port=12345
+username="xxx"
+password="xxx"
+
+[[routes.Outs]] # 路由 1 代理出口 2
+listen=""
+type="http"
+server="xxx.com"
+port=12345
+username="xxx"
+password="xxx"
+
+[[routes.Outs]] # 路由 1 代理出口 N
+listen=""
+type="ss"
+server="aaa.com"
+port=12345
+password="asdasd"
+cipher="aes-128-gcm"
+
+
+
+# 添加任意个路由...
+
+
+
+# 路由 兜底
+[[routes]]
+rules=["*"]
+
+[[routes.Outs]] # 路由 兜底 直连
+listen=""
+type="direct"
