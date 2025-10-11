@@ -1,11 +1,62 @@
-regexp:(.*\.||)(metatrader4|metatrader5|mql5)\.(org|com|net)
-regexp:(.*\\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian|soundofhope)\.(org|com|net|tw|hk|rocks)
-regexp:(Subject|HELO|SMTP)
-regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
+# 特定组织 / 网站集（邪教/政治类）
+regexp:(^|\.)dafahao\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)minghui\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)dongtaiwang\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)epochtimes\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)ntdtv\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)falundafa\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)wujieliulan\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)zhengjian\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)soundofhope\.(org|com|net|tw|hk|rocks)$
+regexp:(^|\.)guangming\.org$
+regexp:(^|\.)renminbao\.com$
+regexp:(^|\.)bannedbook\.org$
+regexp:(^|\.)aboluowang\.com$
+# 邮件 / SMTP 相关（防滥用、临时邮箱）
+regexp:Subject
+regexp:HELO
+regexp:SMTP
+regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168)\.(info|biz|com|de|net|org|me|la)$
+# P2P / BT 下载协议（防盗版）
 regexp:BitTorrent protocol
 regexp:Private Tracker protocol
 regexp:(tracker|torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
 regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.)
-regexp:(.*\.||)(visa|mycard|mastercard|gash|beanfun|bank).*
-regexp:(duangks.com|crustwebsites.net|bafybeicptxhqxfv5t3uhfgp3y7jjfckc6ashesgsirfcofzp646jtno2fy.ipfs.cf-ipfs.com)
-regexp:(.*.||)(gjfzpt|chanct).(com|cn)
+# 特定站点与服务（已知恶意或不明用途）
+regexp:(^|\.)duangks\.com$
+regexp:(^|\.)crustwebsites\.net$
+regexp:(^|\.)bafybeicptxhqxfv5t3uhfgp3y7jjfckc6ashesgsirfcofzp646jtno2fy\.ipfs\.cf-ipfs\.com$
+regexp:(^|\.)gjfzpt\.(com|cn)$
+regexp:(^|\.)chanct\.(com|cn)$
+# 扩展域名列表（含安全厂商/翻墙/文化类）
+# ——— 安全/追踪类 ———
+regexp:(^|\.)360\.cn$
+regexp:(^|\.)360\.com$
+regexp:(^|\.)so\.cn$
+regexp:(^|\.)so\.com$
+regexp:(^|\.)55168957\.com$
+# ——— 法轮系 / 政治相关 ———
+regexp:(^|\.)dajiyuan\.com$
+regexp:(^|\.)dajiyuan\.org$
+regexp:(^|\.)falundata\.com$
+regexp:(^|\.)falundata\.org$
+regexp:(^|\.)dongtaiwang\.(org|com)$
+regexp:(^|\.)epochtimes\.(org|com)$
+# ——— 宗教文化类（可选拦截，未来可注释） ———
+regexp:(^|\.)dalailama\.com$                # 西藏达赖喇嘛官方站
+regexp:(^|\.)en\.shenyun\.com$              # 神韵英文站
+regexp:(^|\.)en\.shenyun\.org$
+regexp:(^|\.)shenyun\.com$
+regexp:(^|\.)shenyun\.org$
+regexp:(^|\.)shenyunperformingarts\.org$
+regexp:(^|\.)zh-cn\.shenyun\.com$
+regexp:(^|\.)zh-cn\.shenyun\.org$
+regexp:(^|\.)shenzhoufilm\.com$             # 神韵影视制作
+# ——— 其他翻墙/宣传站点 ———
+regexp:(^|\.)fgmtv\.org$
+regexp:(^|\.)tw\.fgmtv\.org$
+regexp:(^|\.)yuanming\.net$
+regexp:(^|\.)zhengwunet\.org$
+regexp:(^|\.)zhuichaguoji\.org$
+# ——— 其他不明服务/短链 ———
+regexp:(^|\.)jo\.my$
