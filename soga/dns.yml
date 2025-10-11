@@ -1,0 +1,6 @@
+8.8.8.8:
+  strategy: ipv4_only                               
+  rules:                                          
+    - domain:gstatic.com
+    - domain:google.com
+    - domain:apple.com
