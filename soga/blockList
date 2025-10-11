@@ -1,0 +1,11 @@
+regexp:(.*\.||)(metatrader4|metatrader5|mql5)\.(org|com|net)
+regexp:(.*\\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian|soundofhope)\.(org|com|net|tw|hk|rocks)
+regexp:(Subject|HELO|SMTP)
+regexp:(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
+regexp:BitTorrent protocol
+regexp:Private Tracker protocol
+regexp:(tracker|torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
+regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.)
+regexp:(.*\.||)(visa|mycard|mastercard|gash|beanfun|bank).*
+regexp:(duangks.com|crustwebsites.net|bafybeicptxhqxfv5t3uhfgp3y7jjfckc6ashesgsirfcofzp646jtno2fy.ipfs.cf-ipfs.com)
+regexp:(.*.||)(gjfzpt|chanct).(com|cn)
