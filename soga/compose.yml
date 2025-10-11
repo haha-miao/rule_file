@@ -1,0 +1,30 @@
+services:
+  soga:
+    container_name: soga
+    image: vaxilu/soga:latest
+    restart: always
+    network_mode: host
+    environment:
+      type: xboard #sspanel-uim,xboard,v2board,xiaov2board,whmcs,proxypanel,v2raysocks,soga-v1
+      server_type: ss
+      node_id: 1,2,3
+      api: webapi
+      webapi_url: https://a.b.com #面板 webapi 地址
+      webapi_key: passwd #webapi 通信密钥
+      #soga_key: key #授权码
+      proxy_protocol: 'true'
+      forbidden_bit_torrent: 'true'
+      geo_update_enable: 'true'
+      #listen:
+      #default_dns: '1.1.1.1,8.8.8.8'
+      #dns_strategy: ipv4_first
+      redis_enable: 'true' #是否开启 redis 缓存
+      redis_addr: aaa.com:12345 #redis 地址
+      redis_password: passwd #redis 密码
+      redis_db: 10 #redis 数据库编号
+      conn_limit_expiry: 345600 #缓存在线 IP 的时间，单位：秒
+      user_ip_limit_cidr_prefix_v4: 24 #上报ipv4 cidr 前缀值
+      log_level: debug
+      log_file_dir: /etc/soga/
+    volumes:
+      - "./:/etc/soga/"
