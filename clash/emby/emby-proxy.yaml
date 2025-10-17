@@ -24,3 +24,5 @@ payload:
   - DOMAIN-SUFFIX,odysseyplus.site
   # 新船
   - DOMAIN-SUFFIX,newneeship.com
+  # shrek
+  - DOMAIN-SUFFIX,shrekmedia.org
