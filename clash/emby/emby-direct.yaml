@@ -1,5 +1,8 @@
 payload:
   # 倒闭Direct
+  - DOMAIN-SUFFIX,lax.sexemby.com
+  - DOMAIN-SUFFIX,cn2.sexemby.com
+  - DOMAIN-SUFFIX,direct.sexemby.com
   - DOMAIN-SUFFIX,jiedaibao.gs
   - DOMAIN-SUFFIX,wangdai.us
 
