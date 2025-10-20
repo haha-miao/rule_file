@@ -1,0 +1,66 @@
+#路由 劫持
+[[routes]]
+rules=[
+    "domain:cp.cloudflare.com",
+    "domain:gstatic.com",
+    "domain:i.ytimg.com",
+    "domain:nmcheck.gnome.org",
+    "domain:detectportal.firefox.com",
+    "domain:captive.apple.com",
+    "domain:captive.v2ex.co",
+    "domain:latency-test.skk.moe",
+    "domain:connectivitycheck.android.com",
+]
+
+[[routes.Outs]]
+type="direct"
+
+#路由 Emby
+[[routes]]
+rules=[
+    # 倒闭Porn
+    "domain:cancanbi.com",
+    # 倒闭主线路
+    "domain:cdn.sexemby.com",
+    # ZDZ PRE
+    "domain:emby.to",
+    # JMS PRE
+    "domain:ikuramoe.com",
+    "domain:st8.one",
+    # 叔服
+    "domain:mcjoker.xyz",
+    # 墨白
+    "domain:mobaiemby.site",
+    # GUGU
+    "domain:guguemby.site",
+    "domain:gugu.media",
+    # 喜鹊
+    "domain:223789.xyz",
+    "domain:023168.xyz",
+    # PronEmby
+    "domain:ii00.cc",
+    # 奥德赛
+    "domain:odysseyplus.site",
+    # 新船
+    "domain:newneeship.com",
+    # shrek
+    "domain:shrekmedia.org",
+]
+
+[[routes.Outs]]
+type="direct"
+
+#路由 Download
+[[routes]]
+rules=[
+    # YouTube
+    "geosite:youtube",
+    # Game Download
+    "geosite:category-game-platforms-download",
+    # Android Download
+    "geosite:category-android-app-download",
+]
+
+[[routes.Outs]]
+type="direct"
+
