@@ -1,4 +1,4 @@
-#==================== V25.10.11 ====================#
+#==================== V25.10.29 ====================#
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -70,7 +70,7 @@ tun:
 dns:
   enable: true
   listen: 0.0.0.0:1053
-  ipv6: false
+  ipv6: true
   respect-rules: true
   # 模式切换 redir-host / fake-ip
   enhanced-mode: fake-ip
@@ -644,13 +644,13 @@ rule-providers:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
-    path: ./ruleset//GitHub_No_Resolve.yaml
+    path: ./ruleset/GitHub_No_Resolve.yaml
 
   Microsoftrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
     path: ./ruleset/Microsoft_No_Resolve.yaml
 
   Googlerp:

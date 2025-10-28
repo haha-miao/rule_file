@@ -1,4 +1,4 @@
-#==================== V25.10.11 ====================#
+#==================== V25.10.29 ====================#
 # ======= 基础 =======
 mode: rule
 log-level: info
@@ -12,7 +12,7 @@ mixed-port: 7893
 dns:
   enable: true
   listen: 0.0.0.0:1053
-  ipv6: false
+  ipv6: true
   respect-rules: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -41,6 +41,14 @@ dns:
     - "+.wpsmail.net"
     - "+.henzanapp.com"
     - "+.pconline.com.cn"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
   nameserver:
     - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
@@ -587,13 +595,13 @@ rule-providers:
     behavior: classical
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
-    path: ./ruleset//GitHub_No_Resolve.yaml
+    path: ./ruleset/GitHub_No_Resolve.yaml
 
   Microsoftrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
     path: ./ruleset/Microsoft_No_Resolve.yaml
 
   Googlerp:
