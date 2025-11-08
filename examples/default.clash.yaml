@@ -374,6 +374,19 @@ proxy-groups:
       - Edge
     icon: https://raw.githubusercontent.com/black2c7/Emby-icons/main/Icons/Pikpak.png
 
+  - name: TikTok
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
+
   - name: GitHub
     type: select
     proxies:
@@ -478,6 +491,8 @@ rules:
   - RULE-SET,PikPakrp,PikPak
 # > YouTube
   - RULE-SET,YouTuberp,YouTube
+# > TikTok
+  - RULE-SET,tiktokrp,TikTok
 # > Twitter
   - RULE-SET,Twitterrp,Twitter
 # > Netflix
@@ -701,3 +716,10 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml
     path: ./ruleset/ChinaMax_Classical_No_Resolve.yaml
+  
+  tiktokrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml
+    path: ./ruleset/TikTok_No_Resolve.yaml
