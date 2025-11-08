@@ -219,6 +219,19 @@ proxy-groups:
       - Edge
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
 
+  - name: TikTok
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
+
   - name: YouTube
     type: select
     proxies:
@@ -322,19 +335,6 @@ proxy-groups:
       - TWN
       - Edge
     icon: https://raw.githubusercontent.com/black2c7/Emby-icons/main/Icons/Pikpak.png
-
-  - name: TikTok
-    type: select
-    proxies:
-      - Proxy
-      - DIRECT
-      - HKG
-      - USA
-      - JPN
-      - SGP
-      - TWN
-      - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
 
   - name: GitHub
     type: select
