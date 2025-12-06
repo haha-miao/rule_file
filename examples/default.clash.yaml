@@ -1,4 +1,4 @@
-#==================== V25.11.08 ====================#
+#==================== V25.12.06 ====================#
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -483,8 +483,9 @@ rules:
   - RULE-SET,PayPalrp,PayPal
 # > TG
   - RULE-SET,Telegramrp,Telegram
-# > Open AI
+# > AI
   - RULE-SET,OpenAirp,OpenAi
+  - RULE-SET,clauderp,OpenAi
 # > Discord
   - RULE-SET,Discordrp,Discord
 # > PikPak
@@ -723,3 +724,10 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml
     path: ./ruleset/TikTok_No_Resolve.yaml
+
+  clauderp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude_No_Resolve.yaml
+    path: ./ruleset/Claude_No_Resolve.yaml
