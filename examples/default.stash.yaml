@@ -1,4 +1,4 @@
-#==================== V25.12.06 ====================#
+#==================== V25.12.17 ====================#
 # ======= 基础 =======
 mode: rule
 log-level: info
@@ -98,29 +98,29 @@ proxy-groups:
       - /HK|🇭🇰|港|Hong/
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
 
-  - name: USA
-    type: select
-    proxies:
-      - /US|🇺🇸|美|States/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
-
   - name: JPN
     type: select
     proxies:
       - /JP|🇯🇵|日|Jap/
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 
-  - name: SGP
+  - name: USA
     type: select
     proxies:
-      - /SG|🇸🇬|新|Sin/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+      - /US|🇺🇸|美|States/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 
   - name: TWN
     type: select
     proxies:
       - /TW|🇨🇳|台|Tai|TP/
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+
+  - name: SGP
+    type: select
+    proxies:
+      - /SG|🇸🇬|新|Sin/
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 
   - name: Edge
     type: select
