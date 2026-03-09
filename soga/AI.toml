@@ -2,20 +2,8 @@
 [[routes]]
 rules=[
     # > AI
-    # > ChatGPT
+    # > ChatGPT [openai]
     "geosite:openai",
-    "domain:chatgpt.com",
-    "domain:openai.com",
-    "domain:cdn.auth0.com",
-    "domain:azureedge.net",
-    "domain:sentry.io",
-    "domain:azurefd.net",
-    "domain:intercomcdn.com",
-    "domain:intercom.io",
-    "domain:google-analytics.com",
-    "domain:identrust.com",
-    "domain:challenges.cloudflare.com",
-    "domain:ai.com",
     # > Copilot
     "domain:api.trongrid.io",
     "domain:www.bing.com",
@@ -23,12 +11,10 @@ rules=[
     "domain:sydney.bing.com",
     "domain:sydney.vcanbb.chat",
     "domain:bingai.nothingnessvoid.tech",
-    # > Claude
-    "domain:claude.ai",
-    "domain:www.claude.ai",
-    # > Gemini
-    "domain:gemini.google.com",
-    "domain:proactivebackend-pa.googleapis.com",
+    # > Claude [anthropic]
+    "geosite:anthropic",
+    # > Gemini [google deepmind]
+    "geosite:google-deepmind",
 ]
 
 
