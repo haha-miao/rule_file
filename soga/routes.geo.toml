@@ -1,0 +1,299 @@
+# 出站路由配置，默认本机出站，无需配置
+enable=true
+
+#路由 AI
+[[routes]]
+rules=[
+    # > AI
+    # > ChatGPT [openai]
+    "geosite:openai",
+    # > Copilot
+    "domain:api.trongrid.io",
+    "domain:www.bing.com",
+    "domain:bing.com",
+    "domain:sydney.bing.com",
+    "domain:sydney.vcanbb.chat",
+    "domain:bingai.nothingnessvoid.tech",
+    # > Claude [anthropic]
+    "geosite:anthropic",
+    # > Gemini [google deepmind]
+    "geosite:google-deepmind",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 香港
+[[routes]]
+rules=[
+    #HK
+    # > MyTvSuper
+    "geosite:mytvsuper",
+    # > VIU
+    "geosite:viu",
+    "domain:d3o7oi00quuwqu.cloudfront.net",
+    # > Bilibili
+    "geosite:bilibili",
+    # > NowE
+    "geosite:now",
+    "domain:nowestatic.com",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 台湾
+[[routes]]
+rules=[
+    #TW
+    # > Bahamut
+    "geosite:bahamut",
+    # > KKTV
+    "geosite:kktv",
+    # > LiTV
+    "geosite:litv",
+    # > LineTV.TW
+    "geosite:line",
+    # > CatchPlay
+    "geosite:catchplay",
+    # > Hami
+    "geosite:hamivideo",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 SG
+[[routes]]
+rules = [
+    # > Hotstar
+    "geosite:hotstar",
+    # # > Meta AI
+    # "domain:meta.ai",
+    # # > Perplexity
+    # "geosite:perplexity",
+
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 日本
+[[routes]]
+rules=[
+    #JP
+    # > Hulu
+    "geosite:hulu",
+    # > Niconico
+    "geosite:niconico",
+    # > Abema
+    "geosite:abema",
+    # > DAM"
+    "domain:clubdam.com",
+    # > U-NEXT"
+    "domain:unext.jp",
+    "domain:nxtv.jp",
+    # > DMM"
+    "geosite:dmm",
+    # > WOWOW"
+    "domain:wowow.co.jp",
+    # > J:com On Demand
+    "domain:auth.id2.zaq.ne.jp",
+    # > FOD
+    "domain:fujitv.co.jp",
+    "domain:stream.ne.jp",
+    # > Music.JP
+    "domain:music-book.jp",
+    # > Radiko
+    "geosite:radiko",
+    # > Telasa
+    "domain:telasa.jp",
+    "domain:kddi-video.com",
+    "domain:videopass.jp",
+    "domain:d2lmsumy47c8as.cloudfront.net",
+    # > Japanese Games
+    "domain:cygames.jp",
+    "domain:konosubafd.jp",
+    "domain:colorfulpalette.org",
+    "domain:cds1.clubdam.com",
+    "domain:api.worldflipper.jp",
+    # > Rakuten TV JP
+    "geosite:rakuten",
+    # > AnimeFesta JP
+    "domain:iowl.jp",
+    # > Lemino/D Anime Store
+    "domain:docomo.ne.jp",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 韩国
+[[routes]]
+rules=[
+    #KR
+    # > Wavve
+    "domain:wavve.com",
+    "domain:pooq.co.kr",
+    # > Tving
+    "domain:tving.com",
+    # > Coupang Play
+    "domain:coupangplay.com",
+    # > Afreeca TV
+    "domain:afreecatv.com",
+    # > KBS Domestic
+    "domain:kbs.co.kr",
+    # > Watcha
+    "domain:watcha.com",
+    # > SpotvNow
+    "domain:spotvnow.co.kr",
+    "domain:edge.api.brightcove.com",
+    # > JeiTV
+    "domain:jeitv.com",
+    # > PandaTV
+    "domain:pandalive.co.kr",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 美国
+[[routes]]
+rules=[
+    #US
+    # > Philo
+    "domain:philo.com",
+    # > Discovery+
+    "geosite:discoveryplus",
+    # > ESPN+
+    "geosite:espn",
+    # > FuboTV
+    "domain:www.fubo.tv",
+    "domain:fubo.tv",
+    # > Paramount+
+    "geosite:cbs",
+    # > PeacockTV
+    "domain:geolocation.onetrust.com",
+    "domain:peacocktv.com",
+    "domain:peacock.com",
+    # > Star+
+    "geosite:starplus",
+    # > BritBox
+    "domain:britbox.com",
+    "domain:www.britbox.com",
+    "domain:britbox.co.uk",
+    # > FXNOW
+    "domain:fxnow.fxnetworks.com",
+    # > Shudder
+    "domain:shudder.com",
+    "domain:www.shudder.com",
+    # > TLCGO"
+    "domain:www.tlc.com",
+    "domain:tlc.com",
+    "domain:go.tlc.com",
+    "domain:geolocation.onetrust.com",
+    # > PlutoTV
+    "geosite:plutotv",
+    # > SlingTV
+    "geosite:sling",
+    # > StarZ
+    "domain:starz.com",
+    # > encoreTVB
+    "domain:encoretvb.com",
+    # > Directv Stream
+    "geosite:attwatchtv",
+    # > Epix
+    "domain:epix.com",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 跨国
+[[routes]]
+rules=[
+    #Main
+    # > Netflix
+    "geosite:netflix",
+    # > Tiktok
+    "geosite:tiktok",
+    # > TVB //include: mytvsuper
+    "geosite:tvb",
+    # > Dazn
+    "geosite:dazn",
+    # > Amazon Prime Video
+    "geosite:primevideo",
+    # > Disney //include: abc bamtech espn hotstar marvel nationalgeographic starplus
+    "geosite:disney",
+    # > Spotify
+    "geosite:spotify",
+    # > Hbo MAX
+    "geosite:hbo",
+]
+
+
+[[routes.Outs]]
+listen=""
+type="ss"
+server="xxx.com"
+port=2580
+password="password"
+cipher="aes-128-gcm"
+
+
+#路由 ALL
+[[routes]]
+rules=["*"]
+
+[[routes.Outs]]
+listen="" # 出口网卡 ip，不配置则由系统决定
+type="direct"
