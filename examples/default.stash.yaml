@@ -1,4 +1,4 @@
-#==================== V25.12.17 ====================#
+#==================== V26.04.14 ====================#
 # ======= 基础 =======
 mode: rule
 log-level: info
@@ -128,7 +128,7 @@ proxy-groups:
       - /🇰🇷|KR|KOR|🇩🇪|DE|GER|🇳🇱|NL|NLD|🇬🇧|UK|GB|ENG|🇫🇷|FR|FRA|🇨🇭|CH|CHE|🇨🇦|CA|CAN|🇮🇳|IN|IND|🇮🇩|ID|IDN|🇲🇾|MY|MYS|🇹🇭|TH|THA|🇻🇳|VN|VNM|🇵🇭|PH|PHL|🇮🇹|IT|ITA|🇪🇸|ES|ESP|🇸🇪|SE|SWE|🇳🇴|NO|NOR|🇫🇮|FI|FIN|🇩🇰|DK|DNK|🇷🇺|RU|RUS|🇵🇱|PL|POL|🇨🇿|CZ|CZE|🇸🇰|SK|SVK|🇭🇺|HU|HUN|🇧🇪|BE|BEL|🇦🇹|AT|AUT|🇦🇺|AU|AUS|🇳🇿|NZ|NZL|🇧🇷|BR|BRA|🇲🇽|MX|MEX|🇮🇱|IL|ISR|🇹🇷|TR|TUR|🇦🇪|AE|UAE|🇸🇦|SA|KSA|🇶🇦|QA|QAT|🇿🇦|ZA|ZAF/
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Nations.png
     
-  - name: OpenAi
+  - name: AI-Services
     type: select
     proxies:
       - Proxy
@@ -432,9 +432,9 @@ rules:
   - RULE-SET,PayPalrp,PayPal
 # > TG
   - RULE-SET,Telegramrp,Telegram
-# > AI
-  - RULE-SET,OpenAirp,OpenAi
-  - RULE-SET,clauderp,OpenAi
+# > AI-Services
+  - RULE-SET,OpenAirp,AI-Services
+  - RULE-SET,clauderp,AI-Services
 # > Discord
   - RULE-SET,Discordrp,Discord
 # > PikPak
@@ -680,3 +680,10 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude_No_Resolve.yaml
     path: ./ruleset/Claude_No_Resolve.yaml
+
+  geminirp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini_No_Resolve.yaml
+    path: ./ruleset/Gemini_No_Resolve.yaml
