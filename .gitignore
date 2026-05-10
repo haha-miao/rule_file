@@ -5,8 +5,13 @@
 .vscode/
 .idea/
 .claude/
+AGENTS.md
+CLAUDE.md
 *.swp
 *.swo
+*.bak
+*.orig
+*.rej
 *.log
 logs/
 tmp/
@@ -20,5 +25,7 @@ dist/
 build/
 .env
 .env.*
+*.local.*
+*.secret.*
 *.key
 *.pem

@@ -1,3 +1,51 @@
+# 历史修正
 DOMAIN-SUFFIX,owocloud.com
 DOMAIN-SUFFIX,yt.net
 DOMAIN-SUFFIX,4299.net
+
+# LocalSend
+DOMAIN-SUFFIX,localsend.org
+
+# Apple 基础服务
+DOMAIN,time.apple.com
+DOMAIN,init.ess.apple.com
+DOMAIN,smp-device-content.apple.com
+DOMAIN-SUFFIX,weather-data.apple.com
+DOMAIN-SUFFIX,weather-map.apple.com
+
+# Google 推送与更新
+DOMAIN,mtalk.google.com
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+DOMAIN,clientservices.googleapis.com
+DOMAIN,update.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+
+# 常见 CDN
+DOMAIN,cdn.jsdelivr.net
+DOMAIN-SUFFIX,baomitu.com
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,dppp.net
+DOMAIN-SUFFIX,staticfile.org
+DOMAIN-SUFFIX,upaiyun.com
+
+# Synology/DDNS
+DOMAIN-SUFFIX,diskstation.me
+DOMAIN-SUFFIX,myds.me
+DOMAIN-SUFFIX,synology.me
+DOMAIN-SUFFIX,dscloud.biz
+DOMAIN-SUFFIX,dscloud.me
+DOMAIN-SUFFIX,dscloud.mobi
+DOMAIN-SUFFIX,dsmynas.com
+DOMAIN-SUFFIX,dsmynas.net
+DOMAIN-SUFFIX,dsmynas.org
+DOMAIN-SUFFIX,familyds.com
+DOMAIN-SUFFIX,familyds.net
+DOMAIN-SUFFIX,familyds.org

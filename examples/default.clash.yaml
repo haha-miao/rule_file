@@ -400,19 +400,6 @@ proxy-groups:
       - Edge
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/github_01.png
 
-  - name: Microsoft
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy
-      - HKG
-      - USA
-      - JPN
-      - SGP
-      - TWN
-      - Edge
-    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/microsoft_01.png
-
   - name: Apple
     type: select
     proxies:
@@ -425,6 +412,19 @@ proxy-groups:
       - TWN
       - Edge
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/apple_01.png
+
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - HKG
+      - USA
+      - JPN
+      - SGP
+      - TWN
+      - Edge
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/microsoft_01.png
 
   - name: Steam
     type: select
@@ -468,6 +468,8 @@ proxy-groups:
 
 #==================== 分割 ====================#
 rules:
+# > 规则修正
+  - RULE-SET,Extra-directrp,DIRECT
 # > Emby
   - RULE-SET,Emby-directrp,DIRECT
   - RULE-SET,Emby-proxyrp,Emby
@@ -475,17 +477,16 @@ rules:
   - RULE-SET,WeChatrp,DIRECT
 # > 防止应用循环请求
   - IP-CIDR,0.0.0.0/32,REJECT,no-resolve
-# > 规则修正
-  - RULE-SET,Directrp,DIRECT
 # > 虚拟货币
   - RULE-SET,Cryptorp,Crypto
 # > PayPal
   - RULE-SET,PayPalrp,PayPal
-# > TG
+# > Telegram
   - RULE-SET,Telegramrp,Telegram
-# > AI
+# > AI-Services
   - RULE-SET,OpenAirp,AI-Services
   - RULE-SET,clauderp,AI-Services
+  - RULE-SET,geminirp,AI-Services
 # > Discord
   - RULE-SET,Discordrp,Discord
 # > PikPak
@@ -506,49 +507,52 @@ rules:
   - RULE-SET,Bahamutrp,Bahamut
 # > Bilibili
   - RULE-SET,BiliBilirp,BiliBili
-# > 苹果微软谷歌
-  - RULE-SET,Applerp,Apple
+# > GitHub
   - RULE-SET,Githubrp,GitHub
+# > Apple
+  - RULE-SET,Applerp,Apple
+# > Microsoft
   - RULE-SET,Microsoftrp,Microsoft
+# > Google
   - RULE-SET,Googlerp,Google
 # > Steam
-  - RULE-SET,Steamrp,Steam
   - RULE-SET,SteamCNrp,Steam
+  - RULE-SET,Steamrp,Steam
 # > 全球媒体
   - RULE-SET,GlobalMediarp,GlobalMedia
-# Proxy 兜底
+# > Proxy
   - RULE-SET,Proxyrp,Proxy
-# China 兜底
+# > Direct
   - RULE-SET,Chinarp,DIRECT
-# 局域网地址
+# > 局域网地址
   - RULE-SET,Lanrp,DIRECT
-# DNS 查询失败 Final 规则
+# > DNS 查询失败 Final 规则
   - MATCH,Final
 
 
 #==================== 分割 ====================#
 rule-providers:
 
-  Directrp:
+  Extra-directrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct_No_Resolve.yaml
-    path: ./ruleset/Direct_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/extra/extra-direct.yaml
+    path: ./ruleset/extra-direct.yaml
 
-  Cryptorp:
+  Emby-directrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/crypto/Crypto.yaml
-    path: ./ruleset/Crypto.yaml
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-direct.yaml
+    path: ./ruleset/emby-direct.yaml
 
-  Discordrp:
+  Emby-proxyrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Discord/Discord_No_Resolve.yaml
-    path: ./ruleset/Discord_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-proxy.yaml
+    path: ./ruleset/emby-proxy.yaml
 
   WeChatrp:
     type: http
@@ -557,19 +561,19 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat_No_Resolve.yaml
     path: ./ruleset/WeChat_No_Resolve.yaml
 
-  Lanrp:
+  Cryptorp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan_No_Resolve.yaml
-    path: ./ruleset/Lan_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/crypto/Crypto.yaml
+    path: ./ruleset/Crypto.yaml
 
-  OpenAirp:
+  PayPalrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
-    path: ./ruleset/OpenAI_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal_No_Resolve.yaml
+    path: ./ruleset/PayPal_No_Resolve.yaml
 
   Telegramrp:
     type: http
@@ -578,19 +582,33 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml
     path: ./ruleset/Telegram_No_Resolve.yaml
 
-  YouTuberp:
+  OpenAirp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
-    path: ./ruleset/YouTube_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+    path: ./ruleset/OpenAI_No_Resolve.yaml
 
-  Netflixrp:
+  clauderp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix_Classical_No_Resolve.yaml
-    path: ./ruleset/Netflix_Classical_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude_No_Resolve.yaml
+    path: ./ruleset/Claude_No_Resolve.yaml
+
+  geminirp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini_No_Resolve.yaml
+    path: ./ruleset/Gemini_No_Resolve.yaml
+
+  Discordrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Discord/Discord_No_Resolve.yaml
+    path: ./ruleset/Discord_No_Resolve.yaml
 
   PikPakrp:
     type: http
@@ -599,12 +617,33 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PikPak/PikPak_No_Resolve.yaml
     path: ./ruleset/PikPak_No_Resolve.yaml
 
-  BiliBilirp:
+  YouTuberp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml
-    path: ./ruleset/BiliBili_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
+    path: ./ruleset/YouTube_No_Resolve.yaml
+
+  tiktokrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml
+    path: ./ruleset/TikTok_No_Resolve.yaml
+
+  Twitterrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter_No_Resolve.yaml
+    path: ./ruleset/Twitter_No_Resolve.yaml
+
+  Netflixrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix_Classical_No_Resolve.yaml
+    path: ./ruleset/Netflix_Classical_No_Resolve.yaml
 
   Disneyrp:
     type: http
@@ -627,33 +666,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut_No_Resolve.yaml
     path: ./ruleset/Bahamut_No_Resolve.yaml
 
-  GlobalMediarp:
+  BiliBilirp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml
-    path: ./ruleset/GlobalMedia_Classical_No_Resolve.yaml
-
-  Steamrp:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam_No_Resolve.yaml
-    path: ./ruleset/Steam_No_Resolve.yaml
-
-  SteamCNrp:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml
-    path: ./ruleset/SteamCN_No_Resolve.yaml
-
-  Applerp:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
-    path: ./ruleset/Apple_Classical_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml
+    path: ./ruleset/BiliBili_No_Resolve.yaml
 
   Githubrp:
     type: http
@@ -661,6 +679,13 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
     path: ./ruleset/GitHub_No_Resolve.yaml
+
+  Applerp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
+    path: ./ruleset/Apple_Classical_No_Resolve.yaml
 
   Microsoftrp:
     type: http
@@ -676,33 +701,26 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google_No_Resolve.yaml
     path: ./ruleset/Google_No_Resolve.yaml
 
-  PayPalrp:
+  SteamCNrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal_No_Resolve.yaml
-    path: ./ruleset/PayPal_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml
+    path: ./ruleset/SteamCN_No_Resolve.yaml
 
-  Twitterrp:
+  Steamrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter_No_Resolve.yaml
-    path: ./ruleset/Twitter_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam_No_Resolve.yaml
+    path: ./ruleset/Steam_No_Resolve.yaml
 
-  Emby-directrp:
+  GlobalMediarp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-direct.yaml
-    path: ./ruleset/emby-direct.yaml
-
-  Emby-proxyrp:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/emby/emby-proxy.yaml
-    path: ./ruleset/emby-proxy.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml
+    path: ./ruleset/GlobalMedia_Classical_No_Resolve.yaml
 
   Proxyrp:
     type: http
@@ -715,26 +733,12 @@ rule-providers:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml
-    path: ./ruleset/ChinaMax_Classical_No_Resolve.yaml
-  
-  tiktokrp:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml
-    path: ./ruleset/TikTok_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
+    path: ./ruleset/ChinaMax_Classical.yaml
 
-  clauderp:
+  Lanrp:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude_No_Resolve.yaml
-    path: ./ruleset/Claude_No_Resolve.yaml
-
-  geminirp:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini_No_Resolve.yaml
-    path: ./ruleset/Gemini_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan_No_Resolve.yaml
+    path: ./ruleset/Lan_No_Resolve.yaml
