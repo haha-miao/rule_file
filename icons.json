@@ -1,0 +1,2194 @@
+{
+  "name": "hahamiao",
+  "description": "Generated from icons directory. Version: 260510",
+  "icons": [
+    {
+      "name": "1password_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/1password_01.png"
+    },
+    {
+      "name": "5itv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/5itv_01.png"
+    },
+    {
+      "name": "abematv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/abematv_01.png"
+    },
+    {
+      "name": "adblack_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adblack_01.png"
+    },
+    {
+      "name": "adobe_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobe_01.png"
+    },
+    {
+      "name": "adobe_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobe_02.png"
+    },
+    {
+      "name": "adobeaftereffects_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobeaftereffects_01.png"
+    },
+    {
+      "name": "adobeanimate_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobeanimate_01.png"
+    },
+    {
+      "name": "adobeaudition_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobeaudition_01.png"
+    },
+    {
+      "name": "adobecreativecloud_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobecreativecloud_01.png"
+    },
+    {
+      "name": "adobeillustrator_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobeillustrator_01.png"
+    },
+    {
+      "name": "adobeincopy_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobeincopy_01.png"
+    },
+    {
+      "name": "adobeindesign_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobeindesign_01.png"
+    },
+    {
+      "name": "adobelightroomclassic_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobelightroomclassic_01.png"
+    },
+    {
+      "name": "adobemediaencoder_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobemediaencoder_01.png"
+    },
+    {
+      "name": "adobephotoshop_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobephotoshop_01.png"
+    },
+    {
+      "name": "adobepremiere_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobepremiere_01.png"
+    },
+    {
+      "name": "adobexd_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adobexd_01.png"
+    },
+    {
+      "name": "advertising_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/advertising_01.png"
+    },
+    {
+      "name": "adwhite_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/adwhite_01.png"
+    },
+    {
+      "name": "aga_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/aga_01.png"
+    },
+    {
+      "name": "ai_chatgpt_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_chatgpt_01.png"
+    },
+    {
+      "name": "ai_chatgpt_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_chatgpt_02.png"
+    },
+    {
+      "name": "ai_chatgpt_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_chatgpt_03.png"
+    },
+    {
+      "name": "ai_chatgpt_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_chatgpt_04.png"
+    },
+    {
+      "name": "ai_chatgpt_05",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_chatgpt_05.png"
+    },
+    {
+      "name": "ai_chatgpt_06",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_chatgpt_06.png"
+    },
+    {
+      "name": "ai_claude_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_claude_01.png"
+    },
+    {
+      "name": "ai_claude_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_claude_02.png"
+    },
+    {
+      "name": "ai_claude_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_claude_03.png"
+    },
+    {
+      "name": "ai_claude_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_claude_04.png"
+    },
+    {
+      "name": "ai_copilot_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_copilot_01.png"
+    },
+    {
+      "name": "ai_deepseek_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_deepseek_01.png"
+    },
+    {
+      "name": "ai_deepseek_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_deepseek_02.png"
+    },
+    {
+      "name": "ai_general_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_general_01.png"
+    },
+    {
+      "name": "ai_google_bard_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ai_google_bard_01.png"
+    },
+    {
+      "name": "aia_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/aia_01.png"
+    },
+    {
+      "name": "airport_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/airport_01.png"
+    },
+    {
+      "name": "alibaba_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/alibaba_01.png"
+    },
+    {
+      "name": "alist_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/alist_01.png"
+    },
+    {
+      "name": "alist_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/alist_02.png"
+    },
+    {
+      "name": "all4_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/all4_01.png"
+    },
+    {
+      "name": "amazon_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/amazon_01.png"
+    },
+    {
+      "name": "amazon_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/amazon_02.png"
+    },
+    {
+      "name": "amazon_prime_video_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/amazon_prime_video_01.png"
+    },
+    {
+      "name": "amazon_prime_video_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/amazon_prime_video_02.png"
+    },
+    {
+      "name": "amazon_prime_video_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/amazon_prime_video_03.png"
+    },
+    {
+      "name": "apple_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_01.png"
+    },
+    {
+      "name": "apple_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_02.png"
+    },
+    {
+      "name": "apple_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_03.png"
+    },
+    {
+      "name": "apple_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_04.png"
+    },
+    {
+      "name": "apple_appstore_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_appstore_01.png"
+    },
+    {
+      "name": "apple_appstore_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_appstore_02.png"
+    },
+    {
+      "name": "apple_appstore_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_appstore_03.png"
+    },
+    {
+      "name": "apple_arcade_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_arcade_01.png"
+    },
+    {
+      "name": "apple_find_my_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_find_my_01.png"
+    },
+    {
+      "name": "apple_fitness_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_fitness_01.png"
+    },
+    {
+      "name": "apple_fitness+_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_fitness%2B_01.png"
+    },
+    {
+      "name": "apple_fitness+_letter_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_fitness%2B_letter_01.png"
+    },
+    {
+      "name": "apple_gamecenter_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_gamecenter_01.png"
+    },
+    {
+      "name": "apple_home_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_home_01.png"
+    },
+    {
+      "name": "apple_icloud_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_icloud_01.png"
+    },
+    {
+      "name": "apple_icloud_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_icloud_02.png"
+    },
+    {
+      "name": "apple_music_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_music_01.png"
+    },
+    {
+      "name": "apple_music_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_music_02.png"
+    },
+    {
+      "name": "apple_news_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_news_01.png"
+    },
+    {
+      "name": "apple_testflight_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_testflight_01.png"
+    },
+    {
+      "name": "apple_testflight_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_testflight_02.png"
+    },
+    {
+      "name": "apple_testflight_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_testflight_03.png"
+    },
+    {
+      "name": "apple_tv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_tv_01.png"
+    },
+    {
+      "name": "apple_tv_plus_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_tv_plus_01.png"
+    },
+    {
+      "name": "apple_update_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/apple_update_01.png"
+    },
+    {
+      "name": "area_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_01.png"
+    },
+    {
+      "name": "area_arg_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_arg_01.png"
+    },
+    {
+      "name": "area_arg_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_arg_02.png"
+    },
+    {
+      "name": "area_aus_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_aus_01.png"
+    },
+    {
+      "name": "area_aus_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_aus_02.png"
+    },
+    {
+      "name": "area_bra_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_bra_01.png"
+    },
+    {
+      "name": "area_bra_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_bra_02.png"
+    },
+    {
+      "name": "area_can_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_can_01.png"
+    },
+    {
+      "name": "area_can_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_can_02.png"
+    },
+    {
+      "name": "area_chn_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_chn_01.png"
+    },
+    {
+      "name": "area_chn_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_chn_02.png"
+    },
+    {
+      "name": "area_deu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_deu_01.png"
+    },
+    {
+      "name": "area_deu_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_deu_02.png"
+    },
+    {
+      "name": "area_egy_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_egy_01.png"
+    },
+    {
+      "name": "area_egy_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_egy_02.png"
+    },
+    {
+      "name": "area_eur_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_eur_01.png"
+    },
+    {
+      "name": "area_eur_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_eur_02.png"
+    },
+    {
+      "name": "area_fin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_fin_01.png"
+    },
+    {
+      "name": "area_fin_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_fin_02.png"
+    },
+    {
+      "name": "area_fra_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_fra_01.png"
+    },
+    {
+      "name": "area_fra_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_fra_02.png"
+    },
+    {
+      "name": "area_gbr_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_gbr_01.png"
+    },
+    {
+      "name": "area_gbr_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_gbr_02.png"
+    },
+    {
+      "name": "area_global_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_global_01.png"
+    },
+    {
+      "name": "area_global_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_global_02.png"
+    },
+    {
+      "name": "area_hkg_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_hkg_01.png"
+    },
+    {
+      "name": "area_hkg_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_hkg_02.png"
+    },
+    {
+      "name": "area_ind_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_ind_01.png"
+    },
+    {
+      "name": "area_ind_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_ind_02.png"
+    },
+    {
+      "name": "area_jpn_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_jpn_01.png"
+    },
+    {
+      "name": "area_jpn_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_jpn_02.png"
+    },
+    {
+      "name": "area_kor_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_kor_01.png"
+    },
+    {
+      "name": "area_kor_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_kor_02.png"
+    },
+    {
+      "name": "area_mac_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_mac_01.png"
+    },
+    {
+      "name": "area_mac_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_mac_02.png"
+    },
+    {
+      "name": "area_mys_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_mys_01.png"
+    },
+    {
+      "name": "area_mys_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_mys_02.png"
+    },
+    {
+      "name": "area_nld_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_nld_01.png"
+    },
+    {
+      "name": "area_phl_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_phl_01.png"
+    },
+    {
+      "name": "area_phl_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_phl_02.png"
+    },
+    {
+      "name": "area_rus_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_rus_01.png"
+    },
+    {
+      "name": "area_rus_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_rus_02.png"
+    },
+    {
+      "name": "area_sgp_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_sgp_01.png"
+    },
+    {
+      "name": "area_sgp_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_sgp_02.png"
+    },
+    {
+      "name": "area_tha_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_tha_01.png"
+    },
+    {
+      "name": "area_tha_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_tha_02.png"
+    },
+    {
+      "name": "area_tur_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_tur_01.png"
+    },
+    {
+      "name": "area_tur_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_tur_02.png"
+    },
+    {
+      "name": "area_twn_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_twn_01.png"
+    },
+    {
+      "name": "area_twn_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_twn_02.png"
+    },
+    {
+      "name": "area_un_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_un_01.png"
+    },
+    {
+      "name": "area_united_nations_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_united_nations_01.png"
+    },
+    {
+      "name": "area_usa_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_usa_01.png"
+    },
+    {
+      "name": "area_usa_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/area_usa_02.png"
+    },
+    {
+      "name": "auto_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/auto_01.png"
+    },
+    {
+      "name": "available_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/available_01.png"
+    },
+    {
+      "name": "available_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/available_02.png"
+    },
+    {
+      "name": "available_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/available_03.png"
+    },
+    {
+      "name": "back_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/back_01.png"
+    },
+    {
+      "name": "bahamut_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bahamut_01.png"
+    },
+    {
+      "name": "bahamut_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bahamut_02.png"
+    },
+    {
+      "name": "baidunetdisk_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/baidunetdisk_01.png"
+    },
+    {
+      "name": "baidunetdisk_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/baidunetdisk_02.png"
+    },
+    {
+      "name": "baidutieba_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/baidutieba_01.png"
+    },
+    {
+      "name": "baidutieba_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/baidutieba_02.png"
+    },
+    {
+      "name": "baidutieba_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/baidutieba_03.png"
+    },
+    {
+      "name": "bbc_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bbc_01.png"
+    },
+    {
+      "name": "bbc_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bbc_02.png"
+    },
+    {
+      "name": "bbc_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bbc_03.png"
+    },
+    {
+      "name": "bbc_iplayer_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bbc_iplayer_01.png"
+    },
+    {
+      "name": "bbc_iplayer_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bbc_iplayer_02.png"
+    },
+    {
+      "name": "bbc_iplayer_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bbc_iplayer_03.png"
+    },
+    {
+      "name": "bgp_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bgp_01.png"
+    },
+    {
+      "name": "bian_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bian_01.png"
+    },
+    {
+      "name": "bilibili_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bilibili_01.png"
+    },
+    {
+      "name": "bilibili_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bilibili_02.png"
+    },
+    {
+      "name": "bilibili_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bilibili_03.png"
+    },
+    {
+      "name": "bilibili_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bilibili_04.png"
+    },
+    {
+      "name": "bilibili_05",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bilibili_05.png"
+    },
+    {
+      "name": "bing_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bing_01.png"
+    },
+    {
+      "name": "bing_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bing_02.png"
+    },
+    {
+      "name": "bing_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bing_03.png"
+    },
+    {
+      "name": "bitcoin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bitcoin_01.png"
+    },
+    {
+      "name": "bitget_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bitget_01.png"
+    },
+    {
+      "name": "blackhole_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/blackhole_01.png"
+    },
+    {
+      "name": "blinkload_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/blinkload_01.png"
+    },
+    {
+      "name": "blinkload_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/blinkload_02.png"
+    },
+    {
+      "name": "bodianyinyue_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bodianyinyue_01.png"
+    },
+    {
+      "name": "bodianyinyue_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bodianyinyue_02.png"
+    },
+    {
+      "name": "bookpedia_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bookpedia_01.png"
+    },
+    {
+      "name": "boslife_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/boslife_01.png"
+    },
+    {
+      "name": "boslife_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/boslife_02.png"
+    },
+    {
+      "name": "bot_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bot_01.png"
+    },
+    {
+      "name": "brown_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/brown_01.png"
+    },
+    {
+      "name": "bybit_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bybit_01.png"
+    },
+    {
+      "name": "bypass_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/bypass_01.png"
+    },
+    {
+      "name": "cainiaoguoguo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cainiaoguoguo_01.png"
+    },
+    {
+      "name": "cat_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cat_01.png"
+    },
+    {
+      "name": "catnet_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/catnet_01.png"
+    },
+    {
+      "name": "cellular_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cellular_01.png"
+    },
+    {
+      "name": "cisco_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cisco_01.png"
+    },
+    {
+      "name": "cloudflare_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cloudflare_01.png"
+    },
+    {
+      "name": "clubhouse_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/clubhouse_01.png"
+    },
+    {
+      "name": "clubhouse_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/clubhouse_02.png"
+    },
+    {
+      "name": "cryptocurrency_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cryptocurrency_01.png"
+    },
+    {
+      "name": "cryptocurrency_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cryptocurrency_02.png"
+    },
+    {
+      "name": "cryptocurrency_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cryptocurrency_03.png"
+    },
+    {
+      "name": "cryptocurrency_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cryptocurrency_04.png"
+    },
+    {
+      "name": "cssaomiaoquannengwang_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cssaomiaoquannengwang_01.png"
+    },
+    {
+      "name": "cydia_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/cydia_01.png"
+    },
+    {
+      "name": "dazn_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dazn_01.png"
+    },
+    {
+      "name": "dazn_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dazn_02.png"
+    },
+    {
+      "name": "debian_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/debian_01.png"
+    },
+    {
+      "name": "dewu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dewu_01.png"
+    },
+    {
+      "name": "dianxin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dianxin_01.png"
+    },
+    {
+      "name": "dianxin_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dianxin_02.png"
+    },
+    {
+      "name": "dingding_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dingding_01.png"
+    },
+    {
+      "name": "dingding_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dingding_02.png"
+    },
+    {
+      "name": "direct_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/direct_01.png"
+    },
+    {
+      "name": "direct_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/direct_02.png"
+    },
+    {
+      "name": "discord_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/discord_01.png"
+    },
+    {
+      "name": "discord_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/discord_02.png"
+    },
+    {
+      "name": "discord_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/discord_03.png"
+    },
+    {
+      "name": "discovery+_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/discovery%2B_01.png"
+    },
+    {
+      "name": "disney_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/disney_01.png"
+    },
+    {
+      "name": "disney_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/disney_02.png"
+    },
+    {
+      "name": "disney_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/disney_03.png"
+    },
+    {
+      "name": "disney_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/disney_04.png"
+    },
+    {
+      "name": "disney_05",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/disney_05.png"
+    },
+    {
+      "name": "disney_06",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/disney_06.png"
+    },
+    {
+      "name": "disney_07",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/disney_07.png"
+    },
+    {
+      "name": "dlg365_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dlg365_01.png"
+    },
+    {
+      "name": "dmit_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dmit_01.png"
+    },
+    {
+      "name": "docker_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/docker_01.png"
+    },
+    {
+      "name": "douyuzhibo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/douyuzhibo_01.png"
+    },
+    {
+      "name": "download_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/download_01.png"
+    },
+    {
+      "name": "dropbox_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dropbox_01.png"
+    },
+    {
+      "name": "dropbox_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/dropbox_02.png"
+    },
+    {
+      "name": "duolingo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/duolingo_01.png"
+    },
+    {
+      "name": "duolingo_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/duolingo_02.png"
+    },
+    {
+      "name": "ea_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ea_01.png"
+    },
+    {
+      "name": "edge-x_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/edge-x_01.png"
+    },
+    {
+      "name": "emby_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/emby_01.png"
+    },
+    {
+      "name": "emby_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/emby_02.png"
+    },
+    {
+      "name": "emby_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/emby_03.png"
+    },
+    {
+      "name": "enterprise_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/enterprise_01.png"
+    },
+    {
+      "name": "epic_games_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/epic_games_01.png"
+    },
+    {
+      "name": "equinix_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/equinix_01.png"
+    },
+    {
+      "name": "espn+_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/espn%2B_01.png"
+    },
+    {
+      "name": "espn+_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/espn%2B_02.png"
+    },
+    {
+      "name": "espn+_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/espn%2B_03.png"
+    },
+    {
+      "name": "eteralnetwork_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/eteralnetwork_01.png"
+    },
+    {
+      "name": "ether_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ether_01.png"
+    },
+    {
+      "name": "facebook_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/facebook_01.png"
+    },
+    {
+      "name": "facebook_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/facebook_02.png"
+    },
+    {
+      "name": "facebook_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/facebook_03.png"
+    },
+    {
+      "name": "facebook_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/facebook_04.png"
+    },
+    {
+      "name": "fancynetwork_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/fancynetwork_01.png"
+    },
+    {
+      "name": "fengxingshipin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/fengxingshipin_01.png"
+    },
+    {
+      "name": "figma_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/figma_01.png"
+    },
+    {
+      "name": "film_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/film_01.png"
+    },
+    {
+      "name": "film_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/film_02.png"
+    },
+    {
+      "name": "filmix_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/filmix_01.png"
+    },
+    {
+      "name": "final_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/final_01.png"
+    },
+    {
+      "name": "final_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/final_02.png"
+    },
+    {
+      "name": "final_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/final_03.png"
+    },
+    {
+      "name": "firefox_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/firefox_01.png"
+    },
+    {
+      "name": "fries_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/fries_01.png"
+    },
+    {
+      "name": "fubotv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/fubotv_01.png"
+    },
+    {
+      "name": "game_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/game_01.png"
+    },
+    {
+      "name": "game_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/game_02.png"
+    },
+    {
+      "name": "gia_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/gia_01.png"
+    },
+    {
+      "name": "github_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_01.png"
+    },
+    {
+      "name": "github_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_02.png"
+    },
+    {
+      "name": "github_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_03.png"
+    },
+    {
+      "name": "github_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_04.png"
+    },
+    {
+      "name": "github_05",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_05.png"
+    },
+    {
+      "name": "github_06",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_06.png"
+    },
+    {
+      "name": "github_07",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_07.png"
+    },
+    {
+      "name": "github_08",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_08.png"
+    },
+    {
+      "name": "github_09",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_09.png"
+    },
+    {
+      "name": "github_letter_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/github_letter_01.png"
+    },
+    {
+      "name": "gomami_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/gomami_01.png"
+    },
+    {
+      "name": "google_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_01.png"
+    },
+    {
+      "name": "google_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_02.png"
+    },
+    {
+      "name": "google_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_03.png"
+    },
+    {
+      "name": "google_chrom_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_chrom_01.png"
+    },
+    {
+      "name": "google_drive_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_drive_01.png"
+    },
+    {
+      "name": "google_drive_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_drive_02.png"
+    },
+    {
+      "name": "google_gemini_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_gemini_01.png"
+    },
+    {
+      "name": "google_gemini_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_gemini_02.png"
+    },
+    {
+      "name": "google_gmail_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_gmail_01.png"
+    },
+    {
+      "name": "google_map_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_map_01.png"
+    },
+    {
+      "name": "google_opinion_rewards_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_opinion_rewards_01.png"
+    },
+    {
+      "name": "google_play_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_play_01.png"
+    },
+    {
+      "name": "google_voice_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_voice_01.png"
+    },
+    {
+      "name": "google_voice_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_voice_02.png"
+    },
+    {
+      "name": "google_youtube_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_youtube_01.png"
+    },
+    {
+      "name": "google_youtube_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_youtube_02.png"
+    },
+    {
+      "name": "google_youtube_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_youtube_03.png"
+    },
+    {
+      "name": "google_youtube_letter_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_youtube_letter_01.png"
+    },
+    {
+      "name": "google_youtube_music_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_youtube_music_01.png"
+    },
+    {
+      "name": "hbo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hbo_01.png"
+    },
+    {
+      "name": "hbo_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hbo_02.png"
+    },
+    {
+      "name": "hbo_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hbo_03.png"
+    },
+    {
+      "name": "hbo_go_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hbo_go_01.png"
+    },
+    {
+      "name": "hbomax_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hbomax_01.png"
+    },
+    {
+      "name": "hbomax_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hbomax_02.png"
+    },
+    {
+      "name": "hc_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hc_01.png"
+    },
+    {
+      "name": "heart_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/heart_01.png"
+    },
+    {
+      "name": "hijacking_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hijacking_01.png"
+    },
+    {
+      "name": "home_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/home_01.png"
+    },
+    {
+      "name": "hulu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hulu_01.png"
+    },
+    {
+      "name": "hulu_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/hulu_02.png"
+    },
+    {
+      "name": "huobi_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/huobi_01.png"
+    },
+    {
+      "name": "huyazhibo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/huyazhibo_01.png"
+    },
+    {
+      "name": "iepl_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/iepl_01.png"
+    },
+    {
+      "name": "infuse_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/infuse_01.png"
+    },
+    {
+      "name": "infuse_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/infuse_02.png"
+    },
+    {
+      "name": "infuse_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/infuse_03.png"
+    },
+    {
+      "name": "ingress_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ingress_01.png"
+    },
+    {
+      "name": "instagram_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/instagram_01.png"
+    },
+    {
+      "name": "iplc_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/iplc_01.png"
+    },
+    {
+      "name": "iqiyi_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/iqiyi_01.png"
+    },
+    {
+      "name": "iqiyi_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/iqiyi_02.png"
+    },
+    {
+      "name": "iqiyi&bilibili_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/iqiyi%26bilibili_01.png"
+    },
+    {
+      "name": "jianying_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/jianying_01.png"
+    },
+    {
+      "name": "jingdong_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/jingdong_01.png"
+    },
+    {
+      "name": "jingdong_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/jingdong_02.png"
+    },
+    {
+      "name": "jingdong_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/jingdong_03.png"
+    },
+    {
+      "name": "kakao_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/kakao_01.png"
+    },
+    {
+      "name": "keep_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/keep_01.png"
+    },
+    {
+      "name": "keep_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/keep_02.png"
+    },
+    {
+      "name": "kkbox_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/kkbox_01.png"
+    },
+    {
+      "name": "kktv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/kktv_01.png"
+    },
+    {
+      "name": "kuaishou_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/kuaishou_01.png"
+    },
+    {
+      "name": "kuancoolapk_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/kuancoolapk_01.png"
+    },
+    {
+      "name": "kuancoolapk_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/kuancoolapk_02.png"
+    },
+    {
+      "name": "kuwomusic_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/kuwomusic_01.png"
+    },
+    {
+      "name": "lab_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lab_01.png"
+    },
+    {
+      "name": "lambda_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lambda_01.png"
+    },
+    {
+      "name": "league_of_legends_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/league_of_legends_01.png"
+    },
+    {
+      "name": "leshishipin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/leshishipin_01.png"
+    },
+    {
+      "name": "liantong_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/liantong_01.png"
+    },
+    {
+      "name": "liantong_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/liantong_02.png"
+    },
+    {
+      "name": "lightning_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lightning_01.png"
+    },
+    {
+      "name": "lightning_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lightning_02.png"
+    },
+    {
+      "name": "lightning_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lightning_03.png"
+    },
+    {
+      "name": "lightning_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lightning_04.png"
+    },
+    {
+      "name": "lightning_05",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lightning_05.png"
+    },
+    {
+      "name": "lightning_06",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lightning_06.png"
+    },
+    {
+      "name": "line_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/line_01.png"
+    },
+    {
+      "name": "linetv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/linetv_01.png"
+    },
+    {
+      "name": "linkcube_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/linkcube_01.png"
+    },
+    {
+      "name": "linkedin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/linkedin_01.png"
+    },
+    {
+      "name": "linuxdo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/linuxdo_01.png"
+    },
+    {
+      "name": "litv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/litv_01.png"
+    },
+    {
+      "name": "lock_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lock_01.png"
+    },
+    {
+      "name": "lol_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/lol_01.png"
+    },
+    {
+      "name": "loop_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/loop_01.png"
+    },
+    {
+      "name": "luffy_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/luffy_01.png"
+    },
+    {
+      "name": "magic_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/magic_01.png"
+    },
+    {
+      "name": "mail_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/mail_01.png"
+    },
+    {
+      "name": "mangguotv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/mangguotv_01.png"
+    },
+    {
+      "name": "mangguotv_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/mangguotv_02.png"
+    },
+    {
+      "name": "media_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/media_01.png"
+    },
+    {
+      "name": "meituan_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/meituan_01.png"
+    },
+    {
+      "name": "meituan_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/meituan_02.png"
+    },
+    {
+      "name": "mickey_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/mickey_01.png"
+    },
+    {
+      "name": "microsoft_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_01.png"
+    },
+    {
+      "name": "microsoft_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_02.png"
+    },
+    {
+      "name": "microsoft_azure_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_azure_01.png"
+    },
+    {
+      "name": "microsoft_azure_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_azure_02.png"
+    },
+    {
+      "name": "microsoft_office_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_office_01.png"
+    },
+    {
+      "name": "microsoft_onedrive_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_onedrive_01.png"
+    },
+    {
+      "name": "microsoft_outlook_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_outlook_01.png"
+    },
+    {
+      "name": "microsoft_windows_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_windows_01.png"
+    },
+    {
+      "name": "microsoft_windows_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_windows_02.png"
+    },
+    {
+      "name": "microsoft_xbox_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/microsoft_xbox_01.png"
+    },
+    {
+      "name": "mouse_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/mouse_01.png"
+    },
+    {
+      "name": "music_enhance_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/music_enhance_01.png"
+    },
+    {
+      "name": "my5_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/my5_01.png"
+    },
+    {
+      "name": "mytv_super_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/mytv_super_01.png"
+    },
+    {
+      "name": "nba_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/nba_01.png"
+    },
+    {
+      "name": "nbc_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/nbc_01.png"
+    },
+    {
+      "name": "netease_music_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/netease_music_01.png"
+    },
+    {
+      "name": "netease_music_unlock_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/netease_music_unlock_01.png"
+    },
+    {
+      "name": "netflix_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/netflix_01.png"
+    },
+    {
+      "name": "netflix_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/netflix_02.png"
+    },
+    {
+      "name": "netflix_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/netflix_03.png"
+    },
+    {
+      "name": "netflix_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/netflix_04.png"
+    },
+    {
+      "name": "niconico_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/niconico_01.png"
+    },
+    {
+      "name": "niconico_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/niconico_02.png"
+    },
+    {
+      "name": "niconico_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/niconico_03.png"
+    },
+    {
+      "name": "nintendo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/nintendo_01.png"
+    },
+    {
+      "name": "notion_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/notion_01.png"
+    },
+    {
+      "name": "nowe_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/nowe_01.png"
+    },
+    {
+      "name": "nplayer_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/nplayer_01.png"
+    },
+    {
+      "name": "null_nation_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/null_nation_01.png"
+    },
+    {
+      "name": "oixcloud_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/oixcloud_01.png"
+    },
+    {
+      "name": "oixcloud_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/oixcloud_02.png"
+    },
+    {
+      "name": "oixcloud_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/oixcloud_03.png"
+    },
+    {
+      "name": "okx_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/okx_01.png"
+    },
+    {
+      "name": "okx_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/okx_02.png"
+    },
+    {
+      "name": "onlyfans_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/onlyfans_01.png"
+    },
+    {
+      "name": "panda_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/panda_01.png"
+    },
+    {
+      "name": "paramount_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/paramount_01.png"
+    },
+    {
+      "name": "paypal_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/paypal_01.png"
+    },
+    {
+      "name": "paypal_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/paypal_02.png"
+    },
+    {
+      "name": "paypal_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/paypal_03.png"
+    },
+    {
+      "name": "paypal_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/paypal_04.png"
+    },
+    {
+      "name": "personal_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/personal_01.png"
+    },
+    {
+      "name": "piao_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/piao_01.png"
+    },
+    {
+      "name": "pikpak_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pikpak_01.png"
+    },
+    {
+      "name": "pikpak_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pikpak_02.png"
+    },
+    {
+      "name": "pinduoduo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pinduoduo_01.png"
+    },
+    {
+      "name": "pinterest_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pinterest_01.png"
+    },
+    {
+      "name": "pirate_nation_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pirate_nation_01.png"
+    },
+    {
+      "name": "playstation_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/playstation_01.png"
+    },
+    {
+      "name": "playstation_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/playstation_02.png"
+    },
+    {
+      "name": "pornhub_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pornhub_01.png"
+    },
+    {
+      "name": "pornhub_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pornhub_02.png"
+    },
+    {
+      "name": "pornhub_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/pornhub_03.png"
+    },
+    {
+      "name": "protonmail_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/protonmail_01.png"
+    },
+    {
+      "name": "proxy_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/proxy_01.png"
+    },
+    {
+      "name": "proxy_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/proxy_02.png"
+    },
+    {
+      "name": "puzzle_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/puzzle_01.png"
+    },
+    {
+      "name": "qishuiyinyue_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/qishuiyinyue_01.png"
+    },
+    {
+      "name": "qq_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/qq_01.png"
+    },
+    {
+      "name": "quark_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/quark_01.png"
+    },
+    {
+      "name": "rainbow_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/rainbow_01.png"
+    },
+    {
+      "name": "rainbow_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/rainbow_02.png"
+    },
+    {
+      "name": "reddit_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/reddit_01.png"
+    },
+    {
+      "name": "reddit_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/reddit_02.png"
+    },
+    {
+      "name": "reddit_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/reddit_03.png"
+    },
+    {
+      "name": "redotpay_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/redotpay_01.png"
+    },
+    {
+      "name": "reflix_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/reflix_01.png"
+    },
+    {
+      "name": "reject_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/reject_01.png"
+    },
+    {
+      "name": "ring_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ring_01.png"
+    },
+    {
+      "name": "riot_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/riot_01.png"
+    },
+    {
+      "name": "riotgames_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/riotgames_01.png"
+    },
+    {
+      "name": "riotgames_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/riotgames_02.png"
+    },
+    {
+      "name": "rip_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/rip_01.png"
+    },
+    {
+      "name": "roblox_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/roblox_01.png"
+    },
+    {
+      "name": "select_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/select_01.png"
+    },
+    {
+      "name": "senplayer_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/senplayer_01.png"
+    },
+    {
+      "name": "senplayer_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/senplayer_02.png"
+    },
+    {
+      "name": "server_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/server_01.png"
+    },
+    {
+      "name": "sharon_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/sharon_01.png"
+    },
+    {
+      "name": "shop_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/shop_01.png"
+    },
+    {
+      "name": "shunfeng_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/shunfeng_01.png"
+    },
+    {
+      "name": "siri_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/siri_01.png"
+    },
+    {
+      "name": "sling_tv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/sling_tv_01.png"
+    },
+    {
+      "name": "smbc_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/smbc_01.png"
+    },
+    {
+      "name": "spark_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/spark_01.png"
+    },
+    {
+      "name": "speedtest_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/speedtest_01.png"
+    },
+    {
+      "name": "speedtest_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/speedtest_02.png"
+    },
+    {
+      "name": "speedtest_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/speedtest_03.png"
+    },
+    {
+      "name": "speedtest_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/speedtest_04.png"
+    },
+    {
+      "name": "spotify_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/spotify_01.png"
+    },
+    {
+      "name": "spotify_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/spotify_02.png"
+    },
+    {
+      "name": "ss_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ss_01.png"
+    },
+    {
+      "name": "ssid_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ssid_01.png"
+    },
+    {
+      "name": "ssid_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ssid_02.png"
+    },
+    {
+      "name": "ssl_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ssl_01.png"
+    },
+    {
+      "name": "ssr_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ssr_01.png"
+    },
+    {
+      "name": "star_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/star_01.png"
+    },
+    {
+      "name": "star_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/star_02.png"
+    },
+    {
+      "name": "star+_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/star%2B_01.png"
+    },
+    {
+      "name": "starz_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/starz_01.png"
+    },
+    {
+      "name": "static_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/static_01.png"
+    },
+    {
+      "name": "static_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/static_02.png"
+    },
+    {
+      "name": "steam_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/steam_01.png"
+    },
+    {
+      "name": "steam_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/steam_02.png"
+    },
+    {
+      "name": "steam_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/steam_03.png"
+    },
+    {
+      "name": "streaming_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/streaming_01.png"
+    },
+    {
+      "name": "streaming!cn_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/streaming!cn_01.png"
+    },
+    {
+      "name": "streamingcn_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/streamingcn_01.png"
+    },
+    {
+      "name": "streamingse_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/streamingse_01.png"
+    },
+    {
+      "name": "taobao_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/taobao_01.png"
+    },
+    {
+      "name": "team_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/team_01.png"
+    },
+    {
+      "name": "teams_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/teams_01.png"
+    },
+    {
+      "name": "telegram_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/telegram_01.png"
+    },
+    {
+      "name": "telegram_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/telegram_02.png"
+    },
+    {
+      "name": "telegram_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/telegram_03.png"
+    },
+    {
+      "name": "tencent_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tencent_01.png"
+    },
+    {
+      "name": "tencentcloud_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tencentcloud_01.png"
+    },
+    {
+      "name": "tengxunditu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tengxunditu_01.png"
+    },
+    {
+      "name": "tiktok_douyin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tiktok_douyin_01.png"
+    },
+    {
+      "name": "tiktok_douyin_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tiktok_douyin_02.png"
+    },
+    {
+      "name": "tiktok_douyin_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tiktok_douyin_03.png"
+    },
+    {
+      "name": "tmdb_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tmdb_01.png"
+    },
+    {
+      "name": "trojan_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/trojan_01.png"
+    },
+    {
+      "name": "tt_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tt_01.png"
+    },
+    {
+      "name": "tt_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tt_02.png"
+    },
+    {
+      "name": "tvb_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/tvb_01.png"
+    },
+    {
+      "name": "twitch_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/twitch_01.png"
+    },
+    {
+      "name": "twitter_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/twitter_01.png"
+    },
+    {
+      "name": "twitter_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/twitter_02.png"
+    },
+    {
+      "name": "ubisoft_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ubisoft_01.png"
+    },
+    {
+      "name": "ubuntu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ubuntu_01.png"
+    },
+    {
+      "name": "ulb_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ulb_01.png"
+    },
+    {
+      "name": "ulb_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/ulb_02.png"
+    },
+    {
+      "name": "unlock_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/unlock_01.png"
+    },
+    {
+      "name": "usdt_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/usdt_01.png"
+    },
+    {
+      "name": "v2aray_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/v2aray_01.png"
+    },
+    {
+      "name": "vimeo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vimeo_01.png"
+    },
+    {
+      "name": "vip_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vip_01.png"
+    },
+    {
+      "name": "viu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/viu_01.png"
+    },
+    {
+      "name": "viutv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/viutv_01.png"
+    },
+    {
+      "name": "vpn_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_01.png"
+    },
+    {
+      "name": "vpn_amy_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_amy_01.png"
+    },
+    {
+      "name": "vpn_ash_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_ash_01.png"
+    },
+    {
+      "name": "vpn_ash_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_ash_02.png"
+    },
+    {
+      "name": "vpn_baiyueguang_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_baiyueguang_01.png"
+    },
+    {
+      "name": "vpn_bitcloud_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_bitcloud_01.png"
+    },
+    {
+      "name": "vpn_bywave_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_bywave_01.png"
+    },
+    {
+      "name": "vpn_dlercloud_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_dlercloud_01.png"
+    },
+    {
+      "name": "vpn_dlercloud_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_dlercloud_02.png"
+    },
+    {
+      "name": "vpn_element_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_element_01.png"
+    },
+    {
+      "name": "vpn_flowercloud_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_flowercloud_01.png"
+    },
+    {
+      "name": "vpn_godetia_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_godetia_01.png"
+    },
+    {
+      "name": "vpn_imm_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_imm_01.png"
+    },
+    {
+      "name": "vpn_immtel_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_immtel_01.png"
+    },
+    {
+      "name": "vpn_kuromis_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_kuromis_01.png"
+    },
+    {
+      "name": "vpn_linkcube_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_linkcube_01.png"
+    },
+    {
+      "name": "vpn_mesl_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_mesl_01.png"
+    },
+    {
+      "name": "vpn_mesl_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_mesl_02.png"
+    },
+    {
+      "name": "vpn_nexitally_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_nexitally_01.png"
+    },
+    {
+      "name": "vpn_nexitally_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_nexitally_02.png"
+    },
+    {
+      "name": "vpn_paoluz_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_paoluz_01.png"
+    },
+    {
+      "name": "vpn_tag_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_tag_01.png"
+    },
+    {
+      "name": "vpn_vikinglinks_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_vikinglinks_01.png"
+    },
+    {
+      "name": "vpn_vikinglinks_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_vikinglinks_02.png"
+    },
+    {
+      "name": "vpn_vikinglinks_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_vikinglinks_03.png"
+    },
+    {
+      "name": "vpn_westdata_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_westdata_01.png"
+    },
+    {
+      "name": "vpn_ytoo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vpn_ytoo_01.png"
+    },
+    {
+      "name": "vsco_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/vsco_01.png"
+    },
+    {
+      "name": "wechat_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wechat_01.png"
+    },
+    {
+      "name": "weibo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/weibo_01.png"
+    },
+    {
+      "name": "wetv_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wetv_01.png"
+    },
+    {
+      "name": "wifi_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wifi_01.png"
+    },
+    {
+      "name": "wikipedia_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wikipedia_01.png"
+    },
+    {
+      "name": "wise_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wise_01.png"
+    },
+    {
+      "name": "wps_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wps_01.png"
+    },
+    {
+      "name": "wps_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wps_02.png"
+    },
+    {
+      "name": "wuyouyun_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/wuyouyun_01.png"
+    },
+    {
+      "name": "x_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/x_01.png"
+    },
+    {
+      "name": "x_twitter_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/x_twitter_01.png"
+    },
+    {
+      "name": "xianyu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xianyu_01.png"
+    },
+    {
+      "name": "xiaohongshu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiaohongshu_01.png"
+    },
+    {
+      "name": "xiaohongshu_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiaohongshu_02.png"
+    },
+    {
+      "name": "xiaohongshu_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiaohongshu_03.png"
+    },
+    {
+      "name": "xiaohuanrodelplayer_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiaohuanrodelplayer_01.png"
+    },
+    {
+      "name": "xiaomi_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiaomi_01.png"
+    },
+    {
+      "name": "xiaomicar_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiaomicar_01.png"
+    },
+    {
+      "name": "xiechenglvxing_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiechenglvxing_01.png"
+    },
+    {
+      "name": "xiechenglvxing_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xiechenglvxing_02.png"
+    },
+    {
+      "name": "xuexitong_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/xuexitong_01.png"
+    },
+    {
+      "name": "yahoo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/yahoo_01.png"
+    },
+    {
+      "name": "yahoo_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/yahoo_02.png"
+    },
+    {
+      "name": "yidong_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/yidong_01.png"
+    },
+    {
+      "name": "yidong_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/yidong_02.png"
+    },
+    {
+      "name": "youkushipin_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/youkushipin_01.png"
+    },
+    {
+      "name": "youkushipin_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/youkushipin_02.png"
+    },
+    {
+      "name": "yunshanfu_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/yunshanfu_01.png"
+    },
+    {
+      "name": "yybx_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/yybx_01.png"
+    },
+    {
+      "name": "zhangshangshenghuo_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhangshangshenghuo_01.png"
+    },
+    {
+      "name": "zhangshangshenghuo_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhangshangshenghuo_02.png"
+    },
+    {
+      "name": "zhaoshangyinhang_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhaoshangyinhang_01.png"
+    },
+    {
+      "name": "zhuanyi_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhuanyi_01.png"
+    },
+    {
+      "name": "zhuanyi_02",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhuanyi_02.png"
+    },
+    {
+      "name": "zhuanyi_03",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhuanyi_03.png"
+    },
+    {
+      "name": "zhuanyi_04",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhuanyi_04.png"
+    },
+    {
+      "name": "zhuanyi_05",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/zhuanyi_05.png"
+    }
+  ]
+}

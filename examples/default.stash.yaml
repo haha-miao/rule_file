@@ -1,4 +1,4 @@
-#==================== V25.12.17 ====================#
+#==================== Stash V26.05.10 ====================#
 # ======= 基础 =======
 mode: rule
 log-level: info
@@ -90,45 +90,45 @@ proxy-groups:
       - TWN
       - Edge
       - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/proxy_01.png
 
   - name: HKG
     type: select
     proxies:
       - /HK|🇭🇰|港|Hong/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_hkg_02.png
 
   - name: JPN
     type: select
     proxies:
       - /JP|🇯🇵|日|Jap/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_jpn_02.png
 
   - name: USA
     type: select
     proxies:
       - /US|🇺🇸|美|States/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_usa_02.png
 
   - name: TWN
     type: select
     proxies:
       - /TW|🇨🇳|台|Tai|TP/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_twn_02.png
 
   - name: SGP
     type: select
     proxies:
       - /SG|🇸🇬|新|Sin/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_sgp_02.png
 
   - name: Edge
     type: select
     proxies:
       - /🇰🇷|KR|KOR|🇩🇪|DE|GER|🇳🇱|NL|NLD|🇬🇧|UK|GB|ENG|🇫🇷|FR|FRA|🇨🇭|CH|CHE|🇨🇦|CA|CAN|🇮🇳|IN|IND|🇮🇩|ID|IDN|🇲🇾|MY|MYS|🇹🇭|TH|THA|🇻🇳|VN|VNM|🇵🇭|PH|PHL|🇮🇹|IT|ITA|🇪🇸|ES|ESP|🇸🇪|SE|SWE|🇳🇴|NO|NOR|🇫🇮|FI|FIN|🇩🇰|DK|DNK|🇷🇺|RU|RUS|🇵🇱|PL|POL|🇨🇿|CZ|CZE|🇸🇰|SK|SVK|🇭🇺|HU|HUN|🇧🇪|BE|BEL|🇦🇹|AT|AUT|🇦🇺|AU|AUS|🇳🇿|NZ|NZL|🇧🇷|BR|BRA|🇲🇽|MX|MEX|🇮🇱|IL|ISR|🇹🇷|TR|TUR|🇦🇪|AE|UAE|🇸🇦|SA|KSA|🇶🇦|QA|QAT|🇿🇦|ZA|ZAF/
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Nations.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_united_nations_01.png
     
-  - name: OpenAi
+  - name: AI-Services
     type: select
     proxies:
       - Proxy
@@ -139,7 +139,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/ai_chatgpt_01.png
 
   - name: Google
     type: select
@@ -152,7 +152,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/google_03.png
 
   - name: PayPal
     type: select
@@ -165,7 +165,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/paypal_02.png
 
   - name: Crypto
     type: select
@@ -178,7 +178,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/bian.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/bitcoin_01.png
 
   - name: Telegram
     type: select
@@ -191,7 +191,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/telegram_01.png
 
   - name: Discord
     type: select
@@ -204,7 +204,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/discord_01.png
 
   - name: Twitter
     type: select
@@ -217,7 +217,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/twitter_01.png
 
   - name: TikTok
     type: select
@@ -230,7 +230,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/tiktok_douyin_01.png
 
   - name: YouTube
     type: select
@@ -243,7 +243,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/google_youtube_01.png
 
   - name: Netflix
     type: select
@@ -256,7 +256,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/netflix_01.png
 
   - name: Disney+
     type: select
@@ -269,7 +269,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/disney_06.png
 
   - name: HBO
     type: select
@@ -282,7 +282,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/hbo_02.png
 
   - name: Bahamut
     type: select
@@ -295,7 +295,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/bahamut_01.png
 
   - name: BiliBili
     type: select
@@ -308,7 +308,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/bilibili_01.png
 
   - name: Emby
     type: select
@@ -321,7 +321,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/emby_01.png
 
   - name: PikPak
     type: select
@@ -334,7 +334,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/black2c7/Emby-icons/main/Icons/Pikpak.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/pikpak_01.png
 
   - name: GitHub
     type: select
@@ -347,7 +347,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/github_01.png
 
   - name: Microsoft
     type: select
@@ -360,7 +360,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/microsoft_01.png
 
   - name: Apple
     type: select
@@ -373,7 +373,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/apple_01.png
 
   - name: Steam
     type: select
@@ -386,7 +386,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/steam_01.png
 
   - name: GlobalMedia
     type: select
@@ -399,7 +399,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/GlobalMedia.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_global_02.png
 
   - name: Final
     type: select
@@ -412,7 +412,7 @@ proxy-groups:
       - SGP
       - TWN
       - Edge
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+    icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/final_01.png
 
 
 #==================== 分割 ====================#
@@ -432,9 +432,9 @@ rules:
   - RULE-SET,PayPalrp,PayPal
 # > TG
   - RULE-SET,Telegramrp,Telegram
-# > AI
-  - RULE-SET,OpenAirp,OpenAi
-  - RULE-SET,clauderp,OpenAi
+# > AI-Services
+  - RULE-SET,OpenAirp,AI-Services
+  - RULE-SET,clauderp,AI-Services
 # > Discord
   - RULE-SET,Discordrp,Discord
 # > PikPak
@@ -680,3 +680,10 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude_No_Resolve.yaml
     path: ./ruleset/Claude_No_Resolve.yaml
+
+  geminirp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini_No_Resolve.yaml
+    path: ./ruleset/Gemini_No_Resolve.yaml
