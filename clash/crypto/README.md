@@ -11,4 +11,4 @@
 
 ## 规则链接
 
-https://raw.githubusercontent.com/haha-miao/rule_file/main/surge/crypto/Crypto.list
+https://raw.githubusercontent.com/haha-miao/rule_file/main/clash/crypto/Crypto.yaml

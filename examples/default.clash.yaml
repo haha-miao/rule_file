@@ -1,4 +1,4 @@
-#====================Clash V26.05.10 ====================#
+#====================Clash V26.05.12 ====================#
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -146,37 +146,37 @@ proxy-groups:
   - name: HKG
     type: select
     proxies:
-      - /HK|🇭🇰|港|Hong/
+      - /🇭🇰/
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_hkg_02.png
 
   - name: JPN
     type: select
     proxies:
-      - /JP|🇯🇵|日|Jap/
+      - /🇯🇵/
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_jpn_02.png
 
   - name: USA
     type: select
     proxies:
-      - /US|🇺🇸|美|States/
+      - /🇺🇸/
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_usa_02.png
 
   - name: TWN
     type: select
     proxies:
-      - /TW|🇨🇳|台|Tai|TP/
+      - /🇨🇳|🇹🇼/
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_twn_02.png
 
   - name: SGP
     type: select
     proxies:
-      - /SG|🇸🇬|新|Sin/
+      - /🇸🇬/
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_sgp_02.png
 
   - name: Edge
     type: select
     proxies:
-      - /🇰🇷|KR|KOR|🇩🇪|DE|GER|🇳🇱|NL|NLD|🇬🇧|UK|GB|ENG|🇫🇷|FR|FRA|🇨🇭|CH|CHE|🇨🇦|CA|CAN|🇮🇳|IN|IND|🇮🇩|ID|IDN|🇲🇾|MY|MYS|🇹🇭|TH|THA|🇻🇳|VN|VNM|🇵🇭|PH|PHL|🇮🇹|IT|ITA|🇪🇸|ES|ESP|🇸🇪|SE|SWE|🇳🇴|NO|NOR|🇫🇮|FI|FIN|🇩🇰|DK|DNK|🇷🇺|RU|RUS|🇵🇱|PL|POL|🇨🇿|CZ|CZE|🇸🇰|SK|SVK|🇭🇺|HU|HUN|🇧🇪|BE|BEL|🇦🇹|AT|AUT|🇦🇺|AU|AUS|🇳🇿|NZ|NZL|🇧🇷|BR|BRA|🇲🇽|MX|MEX|🇮🇱|IL|ISR|🇹🇷|TR|TUR|🇦🇪|AE|UAE|🇸🇦|SA|KSA|🇶🇦|QA|QAT|🇿🇦|ZA|ZAF/
+      - /🇰🇷|🇩🇪|🇳🇱|🇬🇧|🇫🇷|🇨🇭|🇨🇦|🇮🇳|🇮🇩|🇲🇾|🇹🇭|🇻🇳|🇵🇭|🇮🇹|🇪🇸|🇸🇪|🇳🇴|🇫🇮|🇩🇰|🇷🇺|🇵🇱|🇨🇿|🇸🇰|🇭🇺|🇧🇪|🇦🇹|🇦🇺|🇳🇿|🇧🇷|🇲🇽|🇮🇱|🇹🇷|🇦🇪|🇸🇦|🇶🇦|🇿🇦/
     icon: https://raw.githubusercontent.com/haha-miao/rule_file/main/icons/area_united_nations_01.png
     
   - name: AI-Services
@@ -482,6 +482,7 @@ rules:
 # > PayPal
   - RULE-SET,PayPalrp,PayPal
 # > Telegram
+  - IP-CIDR,95.161.76.100/31,REJECT-DROP,no-resolve
   - RULE-SET,Telegramrp,Telegram
 # > AI-Services
   - RULE-SET,OpenAirp,AI-Services
@@ -509,6 +510,8 @@ rules:
   - RULE-SET,BiliBilirp,BiliBili
 # > GitHub
   - RULE-SET,Githubrp,GitHub
+# > AppleAI
+  - RULE-SET,AppleAIrp,Apple
 # > Apple
   - RULE-SET,Applerp,Apple
 # > Microsoft
@@ -679,6 +682,13 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
     path: ./ruleset/GitHub_No_Resolve.yaml
+
+  AppleAIrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/appleai/AppleAI.yaml
+    path: ./ruleset/AppleAI.yaml
 
   Applerp:
     type: http

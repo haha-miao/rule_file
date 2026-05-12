@@ -5,10 +5,9 @@
 各类型规则统计：
 | 类型 | 数量(条)  |
 | ---- | ----  |
-| DOMAIN | 2  |
-| DOMAIN-SUFFIX | 55  |
-| TOTAL | 57  |
+| DOMAIN-SUFFIX | 7  |
+| TOTAL | 7  |
 
 ## 规则链接
 
-https://raw.githubusercontent.com/haha-miao/rule_file/main/surge/crypto/Crypto.list
+https://raw.githubusercontent.com/haha-miao/rule_file/main/surge/appleai/AppleAI.list
