@@ -1,4 +1,4 @@
-#====================Clash V26.05.12 ====================#
+#====================Clash V26.05.16 ====================#
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -521,6 +521,8 @@ rules:
 # > Steam
   - RULE-SET,SteamCNrp,Steam
   - RULE-SET,Steamrp,Steam
+# > HamiVideo
+  - RULE-SET,HamiVideorp,GlobalMedia
 # > 全球媒体
   - RULE-SET,GlobalMediarp,GlobalMedia
 # > Proxy
@@ -724,6 +726,13 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam_No_Resolve.yaml
     path: ./ruleset/Steam_No_Resolve.yaml
+
+  HamiVideorp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HamiVideo/HamiVideo_No_Resolve.yaml
+    path: ./ruleset/HamiVideo_No_Resolve.yaml
 
   GlobalMediarp:
     type: http
