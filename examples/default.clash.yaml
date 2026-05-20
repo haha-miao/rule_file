@@ -1,4 +1,4 @@
-#====================Clash V26.05.16 ====================#
+#====================Clash V26.05.20 ====================#
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -112,15 +112,6 @@ dns:
     - 119.29.29.29
     - 114.114.114.114
   nameserver:
-    - https://dns.cloudflare.com/dns-query
-    - https://dns.google/dns-query
-    - https://dns.sb/dns-query
-    - https://sky.rethinkdns.com/dns-query
-  nameserver-policy:
-    "geosite:cn":
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    "geosite:private":
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 

@@ -26,8 +26,6 @@ payload:
   - DOMAIN,alt8-mtalk.google.com
   - DOMAIN,clientservices.googleapis.com
   - DOMAIN,update.googleapis.com
-  - DOMAIN,dl.google.com
-  - DOMAIN,dl.l.google.com
 
   # 常见 CDN
   - DOMAIN,cdn.jsdelivr.net
