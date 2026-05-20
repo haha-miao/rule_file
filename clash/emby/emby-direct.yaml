@@ -3,7 +3,8 @@ payload:
   - DOMAIN-SUFFIX,lax.sexemby.com
   - DOMAIN-SUFFIX,cn2.sexemby.com
   - DOMAIN-SUFFIX,direct.sexemby.com
-  - DOMAIN-SUFFIX,jiedaibao.gs
+  - DOMAIN,cdn.jiedaibao.gs
+  - DOMAIN,cdn2.jiedaibao.gs
   - DOMAIN-SUFFIX,wangdai.us
   # Tank
   - DOMAIN-SUFFIX,tiangou.xyz
@@ -11,3 +12,31 @@ payload:
   - DOMAIN-SUFFIX,pdatv.cc
   # 蘑菇
   - DOMAIN-SUFFIX,yeahfast.com
+  # LongEmby
+  - DOMAIN-SUFFIX,longemby.com
+  - DOMAIN-SUFFIX,longemby.top
+
+  - DOMAIN,vip.nanflix.net
+  - DOMAIN,embymv.top
+  - DOMAIN,mcdn.mobaiemby.site
+  - DOMAIN,jp.fc.newneeship.com
+  - DOMAIN,cloud.s1.xxzi.top
+  - DOMAIN,jelly.s1.xxzi.top
+  - DOMAIN-SUFFIX,oemby.com
+  - DOMAIN-SUFFIX,191616.xyz
+  - DOMAIN-SUFFIX,127255.best
+  - DOMAIN-SUFFIX,pdtvs.de
+  - DOMAIN-SUFFIX,xn--fhq389femyc1d.com
+  - DOMAIN-SUFFIX,luminoustrace.xyz
+  - DOMAIN-SUFFIX,115cdn.de
+  - DOMAIN-SUFFIX,echoflix.vip
+  - DOMAIN-SUFFIX,lyrebirdemby.online
+  - DOMAIN-SUFFIX,uhdnow.com
+  - DOMAIN-SUFFIX,uhdgo.com
+  - DOMAIN-SUFFIX,525778.xyz
+  - DOMAIN-SUFFIX,455676.xyz
+  - DOMAIN-SUFFIX,xhyonline.com
+  - DOMAIN-SUFFIX,8880080.xyz
+  - DOMAIN-SUFFIX,4348663.xyz
+  - DOMAIN-SUFFIX,cinebay.net
+  - DOMAIN-SUFFIX,goglobe.pro

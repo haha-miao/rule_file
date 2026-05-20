@@ -1,13 +1,15 @@
 ## 规则统计
 
-最后更新时间：2026-05-12 10:51:43
+最后更新时间：2026-05-21 01:43:50
 
 各类型规则统计：
 | 类型 | 数量(条)  |
 | ---- | ----  |
-| DOMAIN-SUFFIX | 21  |
-| DOMAIN-KEYWORD | 2  |
-| TOTAL | 23  |
+| DOMAIN-SUFFIX | 168  |
+| DOMAIN | 12  |
+| DOMAIN-KEYWORD | 3  |
+| IP-CIDR | 4  |
+| TOTAL | 187  |
 
 ## 规则链接
 
