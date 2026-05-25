@@ -1,6 +1,6 @@
 {
   "name": "hahamiao",
-  "description": "Generated from icons directory. Version: 260510",
+  "description": "Generated from icons directory. Version: 260525",
   "icons": [
     {
       "name": "1password_01",
@@ -1035,6 +1035,46 @@
       "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_03.png"
     },
     {
+      "name": "google_2026_new_calendar_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_calendar_01_png.png"
+    },
+    {
+      "name": "google_2026_new_chat_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_chat_01_png.png"
+    },
+    {
+      "name": "google_2026_new_docs_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_docs_01_png.png"
+    },
+    {
+      "name": "google_2026_new_drive_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_drive_01_png.png"
+    },
+    {
+      "name": "google_2026_new_forms_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_forms_01_png.png"
+    },
+    {
+      "name": "google_2026_new_gmail_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_gmail_01_png.png"
+    },
+    {
+      "name": "google_2026_new_google_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_google_01_png.png"
+    },
+    {
+      "name": "google_2026_new_meet_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_meet_01_png.png"
+    },
+    {
+      "name": "google_2026_new_sheets_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_sheets_01_png.png"
+    },
+    {
+      "name": "google_2026_new_slides_01_png",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_2026_new_slides_01_png.png"
+    },
+    {
       "name": "google_chrom_01",
       "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_chrom_01.png"
     },
@@ -1069,6 +1109,46 @@
     {
       "name": "google_play_01",
       "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_play_01.png"
+    },
+    {
+      "name": "google_svg_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_01.svg"
+    },
+    {
+      "name": "google_svg_calendar_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_calendar_01.svg"
+    },
+    {
+      "name": "google_svg_chat_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_chat_01.svg"
+    },
+    {
+      "name": "google_svg_docs_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_docs_01.svg"
+    },
+    {
+      "name": "google_svg_drive_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_drive_01.svg"
+    },
+    {
+      "name": "google_svg_forms_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_forms_01.svg"
+    },
+    {
+      "name": "google_svg_gmail_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_gmail_01.svg"
+    },
+    {
+      "name": "google_svg_meet_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_meet_01.svg"
+    },
+    {
+      "name": "google_svg_sheets_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_sheets_01.svg"
+    },
+    {
+      "name": "google_svg_slides_01",
+      "url": "https:\/\/raw.githubusercontent.com\/haha-miao\/rule_file\/main\/icons\/google_svg_slides_01.svg"
     },
     {
       "name": "google_voice_01",
