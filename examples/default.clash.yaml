@@ -1,4 +1,4 @@
-#====================Clash V26.05.20 ====================#
+#====================Clash V26.06.14 ====================#
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -589,8 +589,8 @@ rule-providers:
     type: http
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude_No_Resolve.yaml
-    path: ./ruleset/Claude_No_Resolve.yaml
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/claude/Claude.yaml
+    path: ./ruleset/Claude.yaml
 
   geminirp:
     type: http
