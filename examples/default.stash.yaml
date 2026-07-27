@@ -1,4 +1,4 @@
-#==================== Stash V26.06.14 ====================#
+#==================== Stash V26.07.28 ====================#
 # ======= 基础 =======
 mode: rule
 log-level: info
@@ -419,6 +419,7 @@ proxy-groups:
 rules:
 # > 规则修正
   - RULE-SET,Extra-directrp,DIRECT
+  - RULE-SET,Extra-proxyrp,Proxy
 # > Emby
   - RULE-SET,Emby-directrp,DIRECT
   - RULE-SET,Emby-proxyrp,Emby
@@ -493,6 +494,13 @@ rule-providers:
     interval: 86400
     url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/extra/extra-direct.yaml
     path: ./ruleset/extra-direct.yaml
+
+  Extra-proxyrp:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/haha-miao/rule_file/refs/heads/main/clash/extra/extra-proxy.yaml
+    path: ./ruleset/extra-proxy.yaml
 
   Emby-directrp:
     type: http
